@@ -1,0 +1,62 @@
+{
+    "name": "Spirit Vale",
+    "map": 1062,
+    "fights": [
+        {
+            "mob": "Vale Guardian",
+            "coord": [ -121.367, 61.005, -523.903 ],
+            "radius": 48,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Split"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Split"
+                }
+            ]
+        },
+        {
+            "mob": "Gorseval",
+            "coord": [ 41.755, 50.596, -112.610 ],
+            "radius": 85,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Charged Souls"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Charged Souls"
+                }
+            ]
+        },
+        {
+            "mob": "Sabetha",
+            "coord": [ -129.058, 62.411, 84.904 ],
+            "radius": 90,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Kernan Spawns"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Knuckles Spawns"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Karde Spawns"
+                }
+            ]
+        }
+    ]
+}

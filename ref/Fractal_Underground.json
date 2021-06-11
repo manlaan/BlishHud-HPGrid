@@ -1,0 +1,30 @@
+/*
+{
+    "name": "Underground Facility",
+    "map": 953,
+    "fights": [
+        {
+            "mob": "Rabsovich",
+            "coord": [ 639.16, 60.1219, 121.697 ],
+            "radius": 25,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        }
+    ]
+}
+*/

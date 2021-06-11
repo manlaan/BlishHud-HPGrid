@@ -1,0 +1,50 @@
+{
+    "name": "Thuamanova",
+    "map": 957,
+    "fights": [
+        {
+            "mob": "Subject 6",
+            "coord": [ 116.209, 21.683, 140.854 ],
+            "radius": 40,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Golden Ooze"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Golden Ooze"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Golden Ooze"
+                }
+            ]
+        },
+        {
+            "mob": "Anomaly",
+            "coord": [ 0.529, 61.499, -0.447 ],
+            "radius": 45,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Platform Shrinks"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Platform Shrinks"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Platform Shrinks"
+                }
+            ]
+        }
+    ]
+}

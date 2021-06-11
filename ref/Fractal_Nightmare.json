@@ -1,0 +1,77 @@
+{
+    "name": "Nightmare",
+    "map": 1177,
+    "fights": [
+        {
+            "mob": "Mama",
+            "coord": [ 98.660, 13.991, 155.054 ],
+            "radius": 45,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "East Knight"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "North West Knight"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Starts Moving"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "South Knight"
+                }
+            ]
+        },
+        {
+            "mob": "Siax",
+            "coord": [ 43.329, 44.344, -76.154 ],
+            "radius": 35,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Toxin and Hallucinations Start"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Echos of the Unclean"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Echos of the Unclean"
+                }
+            ]
+        },
+        {
+            "mob": "Ensolyss",
+            "coord": [ 40.281, 44.637, 37.018 ],
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Balls"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Balls"
+                },
+                {
+                    "pct": 15,
+                    "color": "Black",
+                    "description": "Center"
+                }
+            ]
+        }
+    ]
+}

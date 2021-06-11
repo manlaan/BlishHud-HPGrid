@@ -1,0 +1,23 @@
+{
+    "name": "Shiverpeaks Pass",
+    "map": 1332,
+    "fights": [
+        {
+            "mob": "Icebrood Construct",
+            "coord": [ -780.747, 159.696, -247.616 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 85,
+                    "color": "Black",
+                    "description": "Wind"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Arm Lost"
+                }
+            ]
+        }
+    ]
+}

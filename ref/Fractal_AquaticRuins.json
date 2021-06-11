@@ -1,0 +1,28 @@
+{
+    "name": "Aquatic Ruins",
+    "map": 951,
+    "fights": [
+        {
+            "mob": "Jellyfish Beast",
+            "coord": [ -76.299, -179.883, -20.194 ],
+            "radius": 25,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Elite Krait Diviners"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Elite Krait Diviners"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Elite Krait Diviners"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "Strongholf od the Faithful",
+    "map": 1156,
+    "fights": [
+        /*{
+            "mob": "McLeod",
+            "coord": [ 0, 0, 0 ],
+            "radius": 0,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Split"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Split"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Split"
+                }
+            ]
+        },*/
+        {
+            "mob": "Keep Construct",
+            "coord": [ -97.98, 150.15, 237.25 ],
+            "radius": 31,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Orb Collection"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Orb Collection"
+                }
+            ]
+        },
+        {
+            "mob": "Xera",
+            "coord": [ -77.061, 512.354, -80.438 ],
+            "radius": 100,
+            "lines": [
+                /*{
+                    "pct": 90,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "?"
+                },*/
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Platforms"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Games (Rifts)"
+                },
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "Games (Buttons)"
+                }
+            ]
+        }
+    ]
+}

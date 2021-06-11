@@ -1,0 +1,28 @@
+{
+    "name": "Cliffside",
+    "map": 952,
+    "fights": [
+        {
+            "mob": "Archdiviner",
+            "coord": [ 124.775, 714.702, -10.849 ],
+            "radius": 40,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Use Hammer"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Use Hammer"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Use Hammer"
+                }
+            ]
+        }
+    ]
+}

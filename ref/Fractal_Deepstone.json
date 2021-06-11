@@ -1,0 +1,150 @@
+{
+    "name": "Deepstone",
+    "map": 1290,
+    "fights": [
+        /*
+        {
+            "mob": "Spider",
+            "coord": [ 220.066, 266.834, -112.403 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 15,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        },*/
+        {
+            "mob": "Spark",
+            "coord": [ -65.355, 266.843, 4.299 ],
+            "radius": 35,
+            "lines": [
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Wind Sprites"
+                },
+                /*{
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "?"
+                },*/
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Wind Sprites"
+                },
+                /*{
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                },*/
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Wind Sprites"
+                },
+                /*{
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "?"
+                },*/
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "Wind Sprites"
+                }
+            ]
+        },
+        /*{
+            "mob": "Shadow Minotaur",
+            "coord": [ 16.9738, 266.833, -139.573 ],
+            "radius": 25,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        },*/
+        {
+            "mob": "Voice",
+            "coord": [ 16.769, 119.814, 311.667 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 90,
+                    "color": "Black",
+                    "description": "Teleport"
+                },
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Teleport and Breakbar"
+                },
+                {
+                    "pct": 70,
+                    "color": "Black",
+                    "description": "Teleport"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Spectral Flames"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Teleport"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Teleport and Breakbar"
+                },
+                {
+                    "pct": 30,
+                    "color": "Black",
+                    "description": "Teleport"
+                },
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "Spectral Flames"
+                }
+            ]
+        }
+    ]
+}

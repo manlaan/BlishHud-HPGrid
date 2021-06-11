@@ -1,0 +1,72 @@
+{
+    "name": "Shattered Observatory",
+    "map": 1205,
+    "fights": [
+        {
+            "mob": "Skorvald",
+            "coord": [ -497.117, 80.870, 449.599 ],
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Islands"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Islands"
+                }
+            ]
+        },
+        {
+            "mob": "Viirastra",
+            "coord": [ 263.005, 124.109, 37.131 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Breakbar"
+                }
+            ]
+        },
+        {
+            "mob": "Arkk",
+            "coord": [ -455.246, 72.874, -429.537 ],
+            "radius": 45,
+            "lines": [
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Balls"
+                },
+                {
+                    "pct": 70,
+                    "color": "Black",
+                    "description": "Adds"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Balls"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Adds"
+                },
+                {
+                    "pct": 30,
+                    "color": "Black",
+                    "description": "Balls"
+                }
+            ]
+        }
+    ]
+}

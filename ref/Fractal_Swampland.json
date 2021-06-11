@@ -1,0 +1,40 @@
+{
+    "name": "Swampland",
+    "map": 949,
+    "fights": [
+        {
+            "mob": "Mossman",
+            "coord": [ 13.327, -0.355, -23.291 ],
+            "radius": 20,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Wolf Transform"
+                }
+            ]
+        },
+        {
+            "mob": "Bloomhunger",
+            "coord": [ -115.642, 0.462, -129.372 ],
+            "radius": 75,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Adds"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Adds"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Wisps"
+                }
+            ]
+        }
+    ]
+}

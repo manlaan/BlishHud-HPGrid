@@ -1,0 +1,29 @@
+{
+    "name": "Molten Furnace",
+    "map": 955,
+    "fights": [
+        {
+            "mob": "Thermal Core and Engineer",
+            "coord": [ -235.77, 27.258, 226.41 ],
+            "radius": 40,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Phase/Moves"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Phase/Moves"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Phase/Moves"
+                }
+            ]
+        }
+    ]
+}
+

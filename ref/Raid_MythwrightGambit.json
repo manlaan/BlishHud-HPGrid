@@ -1,0 +1,45 @@
+{
+    "name": "Mythwright Gambit",
+    "map": 1303,
+    "fights": [
+        {
+            "mob": "Twin Largos",
+            "coord": [ 367.233, 32.067, 35.508 ],
+            "radius": 140,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Platform"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Platform"
+                }
+            ]
+        },
+        {
+            "mob": "Qadim",
+            "coord": [ 367.233, 32.067, 35.508 ],
+            "radius": 140,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Phase 1"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Phase 2"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Phase 3"
+                }
+            ]
+        }
+    ]
+}

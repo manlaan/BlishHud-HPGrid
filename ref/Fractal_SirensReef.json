@@ -1,0 +1,40 @@
+{
+    "name": "Test - EotN",
+    "map": 1309,
+    "fights": [
+        {
+            "mob": "Stonehead",
+            "coord": [ 144.126, 8.108, 200.437 ],
+            "radius": 20,
+            "lines": [
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Flees"
+                }
+            ]
+        },
+        {
+            "mob": "Ship Bosses",
+            "coord": [ -171.814, 5.916, 95.962 ],
+            "radius": 20,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Adds, Wind 1 Starts"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Adds, Wind 2 Starts"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Adds"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Fraener of Jormag",
+    "map": 1341,
+    "fights": [
+        {
+            "mob": "Fraener of Jormag",
+            "coord": [ 16.300, 179.825, -1.964 ],
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Icebrood Construct"
+                },
+                {
+                    "pct": 70,
+                    "color": "Black",
+                    "description": "Arm Lost"
+                }
+            ]
+        }
+    ]
+}

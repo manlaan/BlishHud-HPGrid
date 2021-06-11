@@ -1,0 +1,70 @@
+{
+    "name": "Salvation Pass",
+    "map": 1149,
+    "fights": [
+        {
+            "mob": "Slothasor",
+            "coord": [ 197.181, 0.604, -13.809 ],
+            "radius": 60,
+            "lines": [
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Narcolepsy"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Narcolepsy"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Spores Start"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Narcolepsy"
+                },
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "Narcolepsy"
+                },
+                {
+                    "pct": 10,
+                    "color": "Black",
+                    "description": "Narcolepsy"
+                }
+            ]
+        },
+        {
+            "mob": "Matthias",
+            "coord": [ -150.859, 131.523, 149.735 ],
+            "radius": 42,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Ice"
+                },
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Fire"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Storm"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "All + Spirits"
+                }
+            ]
+        }
+    ]
+}

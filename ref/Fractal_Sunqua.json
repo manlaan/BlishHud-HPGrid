@@ -1,0 +1,63 @@
+{
+    "name": "Sunqua Peak",
+    "map": 1384,
+    "fights": [
+        {
+            "mob": "Voice of the Mountain",
+            "coord": [ -102.111, -203.122, 78.678 ],
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Jumpers"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Jumpers"
+                }
+            ]
+        },
+        {
+            "mob": "Fury of the Moutain",
+            "coord": [ -12.78, 97.35, 212.364 ],
+            "XYZ": ,
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Meteors"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Meteors"
+                }
+            ]
+        },
+        {
+            "mob": "Sorrowful Spellcaster",
+            "coord": [ 0, 0, 0 ],
+            "radius": 0,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Air (CM: Fear)"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Fire (CM: Sorrow)"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Water (CM: Guilt)"
+                }
+            ]
+        }
+    ]
+}

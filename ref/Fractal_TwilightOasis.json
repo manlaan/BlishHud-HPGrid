@@ -1,0 +1,91 @@
+{
+    "name": "Twilight Oasis",
+    "map": 1267,
+    "fights": [
+        /*{
+            "mob": "Sandblinder 1",
+            "coord": [ 19.320, 10.657, 32.448 ],
+            "radius": 22,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        },
+        {
+            "mob": "Sandblinder 2",
+            "coord": [ 25.465, 42.756, 63.832 ],
+            "radius": 22,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        },
+        {
+            "mob": "Sandblinder 3",
+            "coord": [ 147.424, 45.918, 91.265 ],
+            "radius": 22,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        },*/
+        {
+            "mob": "Priestess Amala v1",
+            "coord": [ 119.681, 1.930, 42.326 ],
+            "radius": 20,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Dead"
+                }
+            ]
+        },
+        {
+            "mob": "Priestess Amala v2",
+            "coord": [ 194.401, 12.619, -31.913 ],
+            "radius": 45,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Lyssa  Phase (Clones)"
+                },
+                {
+                    "pct": 85,
+                    "color": "Black",
+                    "description": "Melandru Phase (Elemental)"
+                },
+                {
+                    "pct": 65,
+                    "color": "Black",
+                    "description": "Dwayna Phase (Lightning)"
+                },
+                {
+                    "pct": 45,
+                    "color": "Black",
+                    "description": "Grenth Phase (Necro)"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Balthazar Phase (Fire)"
+                },
+                {
+                    "pct": 5,
+                    "color": "Black",
+                    "description": "Amala Phase (Fire)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Hall of Chains",
+    "map": 1264,
+    "fights": [
+        {
+            "mob": "Soulless Horror",
+            "coord": [ -269.516, 20.762, 21.629 ],
+            "radius": 45,
+            "lines": [
+                {
+                    "pct": 90,
+                    "color": "Black",
+                    "description": "Walls - 2 Segments"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Walls - 3 Segments"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Walls - 4 Segments"
+                }
+            ]
+        },
+        {
+            "mob": "Dhuum",
+            "coord": [ 400.948, 162.593, 16.892 ],
+            "radius": 60,
+            "lines": [
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Soul Shackel Starts"
+                },
+                {
+                    "pct": 10,
+                    "color": "Black",
+                    "description": "Orbs"
+                }
+            ]
+        }
+    ]
+}

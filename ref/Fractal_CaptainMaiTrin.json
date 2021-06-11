@@ -1,0 +1,28 @@
+{
+    "name": "Captain Mai Trin",
+    "map": 960,
+    "fights": [
+        {
+            "mob": "Mai Trin",
+            "coord": [ -30.908, 77.741, -68.189 ],
+            "radius": 33,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Swap Champians"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Swap Champians"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Swap Champians"
+                }
+            ]
+        }
+    ]
+}

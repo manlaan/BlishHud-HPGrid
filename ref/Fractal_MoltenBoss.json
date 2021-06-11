@@ -1,0 +1,30 @@
+{
+    "name": "Molten Boss",
+    "map": 959,
+    "fights": [
+        /*{
+            "mob": "Effigy",
+            "coord": [ -82.627, 128.377, 5.526 ],
+            "radius": 25,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "?"
+                }
+            ]
+        },*/
+        {
+            "mob": "Boss Duo",
+            "coord": [ 139.864, 123.391, -113.692 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Adds Spawn"
+                }
+            ]
+        }
+    ]
+}

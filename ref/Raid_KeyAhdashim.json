@@ -1,0 +1,181 @@
+{
+    "name": "Key of Ahdashim",
+    "map": 1323,
+    "fights": [
+        {
+            "mob": "Sabir 1",
+            "coord": [ -294.783, 57.743, 96.448 ],
+            "radius": 31,
+            "lines": [
+                {
+                    "pct": 90,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Next Platform"
+                }
+            ]
+        },
+        {
+            "mob": "Sabir 2",
+            "coord": [ -337.489, 101.658, 63.849 ],
+            "radius": 31,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Unbridled Tempest"
+                },
+                {
+                    "pct": 70,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 65,
+                    "color": "Black",
+                    "description": "Unbridled Tempest"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Next Platform"
+                }
+            ]
+        },
+        {
+            "mob": "Sabir 3",
+            "coord": [ -307.353, 166.229, 61.216 ],
+            "radius": 45,
+            "lines": [
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Twister, Corners Start"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Wisp"
+                },
+                {
+                    "pct": 30,
+                    "color": "Black",
+                    "description": "Wisp"
+                },
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "Wisp"
+                },
+                {
+                    "pct": 10,
+                    "color": "Black",
+                    "description": "Wisp"
+                }
+            ]
+        },
+        {
+            "mob": "Adina",
+            "coord": [ 378.666, 7.752, -37.280 ],
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Wall"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Wall"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Wall"
+                }
+            ]
+        },
+        {
+            "mob": "Qadim the Peerless",
+            "coord": [ 42.0447, 16.8169, 251.145 ],
+            "radius": 100,
+            "lines": [
+                {
+                    "pct": 95,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 90,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 85,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Drop Fire"
+                },
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 70,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 65,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Drop Fire"
+                },
+                {
+                    "pct": 55,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 45,
+                    "color": "Black",
+                    "description": "Orb"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "North Pylon Destroyed"
+                },
+                {
+                    "pct": 30,
+                    "color": "Black",
+                    "description": "SouthWest Pylon Destroyed"
+                },
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "SouthEast Pylon Destroyed"
+                }
+            ]
+        }
+    ]
+}

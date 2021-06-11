@@ -1,0 +1,23 @@
+{
+    "name": "Whisper of Jormag",
+    "map": 1359,
+    "fights": [
+        {
+            "mob": "Whisper of Jormag",
+            "coord": [ 0.137109, 54.2949, 39.1277 ],
+            "radius": 30,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Doppelganger"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Doppelganger"
+                }
+            ]
+        }
+    ]
+}

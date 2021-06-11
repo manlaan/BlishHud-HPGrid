@@ -1,0 +1,164 @@
+{
+    "name": "Bastion of the Penitent",
+    "map": 1188,
+    "fights": [
+        {
+            "mob": "Cairn",
+            "coord": [ 364.77, 33.7205, 51.245 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Green Pattern 1"
+                },
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Green Pattern 2"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Green Pattern 3"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Green Pattern 4"
+                }
+            ]
+        },
+        {
+            "mob": "Musaat Overseer",
+            "coord": [ 67.202, 106.187, 101.103 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Pattern 1"
+                },
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Pattern 2"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Pattern 3"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Pattern 4"
+                }
+            ]
+        },
+        {
+            "mob": "Samarog",
+            "coord": [ -102.573, 129.488, 77.347 ],
+            "radius": 70,
+            "lines": [
+                {
+                    "pct": 90,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 80,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 70,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Rigom, Lock Key Starts"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Rigom, Large Spears"
+                },
+                {
+                    "pct": 30,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 20,
+                    "color": "Black",
+                    "description": "Breakbar"
+                },
+                {
+                    "pct": 10,
+                    "color": "Black",
+                    "description": "Breakbar"
+                }
+            ]
+        },
+        {
+            "mob": "Deimos",
+            "coord": [ -213.241, 101.924, 77.496 ],
+            "radius": 40,
+            "lines": [
+                {
+                    "pct": 100,
+                    "color": "Black",
+                    "description": "Chain Teleport, Greed and Pride"
+                },
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Thief Teleport, Tears Start"
+                },
+                {
+                    "pct": 60,
+                    "color": "Black",
+                    "description": "Oil Starts"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Gambler Teleport"
+                },
+                {
+                    "pct": 40,
+                    "color": "Black",
+                    "description": "Greed and Pride"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Drunkard Teleport"
+                },
+                {
+                    "pct": 10,
+                    "color": "Black",
+                    "description": "All Teleport"
+                }
+            ]
+        }
+    ]
+}

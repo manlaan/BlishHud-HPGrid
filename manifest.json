@@ -1,0 +1,19 @@
+{
+    "name": "HP Grids",
+    "version": "0.9.0",
+    "namespace": "HPGrid",
+    "package": "HPGrid.dll",
+    "manifest_version": 1,
+
+    "description": "Displays grid over HP bar\n\nOriginal HPGrid file from QuitarHero's Marker Pack https://github.com/QuitarHero/Heros-Marker-Pack",
+    "dependencies": {
+        "bh.blishhud": ">=0.5.2"
+    },
+    "url": "https://github.com/manlaan/BlishHud-HPGrid",
+    "contributors": [
+        {
+            "name": "Manlaan"
+        }
+    ],
+    "directories": [ "hpgrid" ]
+}

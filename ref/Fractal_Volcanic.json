@@ -1,0 +1,40 @@
+{
+    "name": "Volcanic",
+    "map": 954,
+    "fights": [
+        {
+            "mob": "Grawl Shaman",
+            "coord": [ 219.341, 54.277, -707.609 ],
+            "radius": 13,
+            "lines": [
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Dead"
+                }
+            ]
+        },
+        {
+            "mob": "Imbued Shaman",
+            "coord": [ 250.965, 10.365, -808.191 ],
+            "radius": 50,
+            "lines": [
+                {
+                    "pct": 75,
+                    "color": "Black",
+                    "description": "Shield"
+                },
+                {
+                    "pct": 50,
+                    "color": "Black",
+                    "description": "Shield"
+                },
+                {
+                    "pct": 25,
+                    "color": "Black",
+                    "description": "Shield"
+                }
+            ]
+        }
+    ]
+}
