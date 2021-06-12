@@ -40,7 +40,7 @@ namespace HPGrid
             "Fractal_AquaticRuins.json",
             "Fractal_CaptainMaiTrin.json",  
             "Fractal_Chaos.json",
-            "Fractal_Cliffside.json",
+            "Fractal_Cliffside.json",  
             "Fractal_Deepstone.json",
             "Fractal_MoltenBoss.json",
             "Fractal_MoltenFurnace.json",
@@ -49,10 +49,10 @@ namespace HPGrid
             "Fractal_SirensReef.json",
             "Fractal_Snowblind.json",
             //"Fractal_SolidOcean.json",  //None   
-            "Fractal_Sunqua.json",   //Loc Needed for final fight
+            "Fractal_Sunqua.json",
             "Fractal_Swampland.json",
             "Fractal_Thaumanova.json",
-            "Fractal_TwilightOasis.json",
+            "Fractal_TwilightOasis.json", 
             //"Fractal_Uncategorized.json",  //None
             //"Fractal_Underground.json",  //None
             //"Fractal_UrbanBattlegrounds.json",  //None

@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Shaman Lonarr Dragons",
-            "coord": [ 182.792, 22.161, -60.094 ],
+            "coord": [ 182.792, -60.094, 22.161 ],
             "radius": 25,
             "lines": [
                 {

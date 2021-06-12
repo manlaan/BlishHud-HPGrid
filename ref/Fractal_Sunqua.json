@@ -22,7 +22,6 @@
         {
             "mob": "Fury of the Moutain",
             "coord": [ -12.78, 97.35, 212.364 ],
-            "XYZ": ,
             "radius": 30,
             "lines": [
                 {
@@ -39,8 +38,8 @@
         },
         {
             "mob": "Sorrowful Spellcaster",
-            "coord": [ 0, 0, 0 ],
-            "radius": 0,
+            "coord": [ 175.836, 35.352, 247.991 ],
+            "radius": 40,
             "lines": [
                 {
                     "pct": 100,

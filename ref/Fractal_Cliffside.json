@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Archdiviner",
-            "coord": [ 124.775, 714.702, -10.849 ],
+            "coord": [ 124.775, -10.849, 714.702 ],
             "radius": 40,
             "lines": [
                 {

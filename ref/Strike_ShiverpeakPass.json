@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Icebrood Construct",
-            "coord": [ -780.747, 159.696, -247.616 ],
+            "coord": [ -780.747, -247.616, 159.696 ],
             "radius": 50,
             "lines": [
                 {

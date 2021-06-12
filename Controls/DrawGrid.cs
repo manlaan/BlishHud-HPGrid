@@ -150,7 +150,7 @@ namespace HPGrid
                         new ArrowNote()
                         {
                             Loc = new Vector2(this.Location.X + (int)pct, this.Location.Y + Size.Y - 8),  
-                            Note = _line.description
+                            Note = _line.pct + "%: " + _line.description
                         });
                 }
             }

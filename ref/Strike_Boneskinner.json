@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Boneskinner",
-            "coord": [ 15.468, 179.712, -2.189 ],
+            "coord": [ 15.468, -2.189, 179.712 ],
             "radius": 40,
             "lines": [
                 {

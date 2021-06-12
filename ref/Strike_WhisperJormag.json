@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Whisper of Jormag",
-            "coord": [ 0.137109, 54.2949, 39.1277 ],
+            "coord": [ 0.137109, 39.1277, 54.2949 ],
             "radius": 30,
             "lines": [
                 {

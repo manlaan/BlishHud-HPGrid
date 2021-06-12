@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Jellyfish Beast",
-            "coord": [ -76.299, -179.883, -20.194 ],
+            "coord": [ -76.299, -20.194, -179.883 ],
             "radius": 25,
             "lines": [
                 {

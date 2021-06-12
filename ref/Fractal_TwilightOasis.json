@@ -4,7 +4,7 @@
     "fights": [
         /*{
             "mob": "Sandblinder 1",
-            "coord": [ 19.320, 10.657, 32.448 ],
+            "coord": [ 19.320, 32.448, 10.657 ],
             "radius": 22,
             "lines": [
                 {
@@ -16,7 +16,7 @@
         },
         {
             "mob": "Sandblinder 2",
-            "coord": [ 25.465, 42.756, 63.832 ],
+            "coord": [ 25.465, 63.832, 42.756 ],
             "radius": 22,
             "lines": [
                 {
@@ -28,7 +28,7 @@
         },
         {
             "mob": "Sandblinder 3",
-            "coord": [ 147.424, 45.918, 91.265 ],
+            "coord": [ 147.424, 91.265, 45.918 ],
             "radius": 22,
             "lines": [
                 {
@@ -39,8 +39,8 @@
             ]
         },*/
         {
-            "mob": "Priestess Amala v1",
-            "coord": [ 119.681, 1.930, 42.326 ],
+            "mob": "Priestess Amala 1",
+            "coord": [ 119.681, 42.326, 1.930 ],
             "radius": 20,
             "lines": [
                 {
@@ -51,8 +51,8 @@
             ]
         },
         {
-            "mob": "Priestess Amala v2",
-            "coord": [ 194.401, 12.619, -31.913 ],
+            "mob": "Priestess Amala 2",
+            "coord": [ 194.401, -31.913, 12.619 ],
             "radius": 45,
             "lines": [
                 {

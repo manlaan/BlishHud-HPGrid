@@ -4,19 +4,19 @@
     "fights": [
         {
             "mob": "Stonehead",
-            "coord": [ 144.126, 8.108, 200.437 ],
+            "coord": [ 144.126, 200.437, 8.108 ],
             "radius": 20,
             "lines": [
                 {
                     "pct": 25,
                     "color": "Black",
-                    "description": "Flees"
+                    "description": "Dead"
                 }
             ]
         },
         {
             "mob": "Ship Bosses",
-            "coord": [ -171.814, 5.916, 95.962 ],
+            "coord": [ -171.814, 95.962, 5.916 ],
             "radius": 20,
             "lines": [
                 {

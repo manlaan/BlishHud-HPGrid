@@ -4,7 +4,7 @@
     "fights": [
         {
             "mob": "Fraener of Jormag",
-            "coord": [ 16.300, 179.825, -1.964 ],
+            "coord": [ 16.300, -1.964, 179.825 ],
             "radius": 30,
             "lines": [
                 {

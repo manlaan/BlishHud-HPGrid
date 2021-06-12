@@ -10,17 +10,27 @@
                 {
                     "pct": 75,
                     "color": "Black",
-                    "description": "Phase/Moves"
+                    "description": "Engineer Moves"
+                },
+                {
+                    "pct": 66,
+                    "color": "Black",
+                    "description": "Core Phase"
                 },
                 {
                     "pct": 50,
                     "color": "Black",
-                    "description": "Phase/Moves"
+                    "description": "Engineer Moves"
+                },
+                {
+                    "pct": 33,
+                    "color": "Black",
+                    "description": "Core Phase"
                 },
                 {
                     "pct": 25,
                     "color": "Black",
-                    "description": "Phase/Moves"
+                    "description": "Engineer Moves"
                 }
             ]
         }
