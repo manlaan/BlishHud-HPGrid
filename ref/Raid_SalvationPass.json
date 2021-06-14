@@ -17,11 +17,11 @@
                     "color": "Black",
                     "description": "Narcolepsy"
                 },
-                {
+                /*{
                     "pct": 50,
                     "color": "Black",
                     "description": "Spores Start"
-                },
+                },*/
                 {
                     "pct": 40,
                     "color": "Black",

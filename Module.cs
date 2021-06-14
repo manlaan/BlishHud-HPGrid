@@ -63,7 +63,7 @@ namespace HPGrid
             "Raid_MythwrightGambit.json",
             "Raid_SalvationPass.json",
             "Raid_SpiritVale.json",
-            "Raid_StrongholdFaithful.json",   //Need McLeod
+            "Raid_StrongholdFaithful.json",
             "Strike_Boneskinner.json",
             "Strike_FraenerJormag.json",
             "Strike_ShiverpeakPass.json",

@@ -2,10 +2,10 @@
     "name": "Strongholf od the Faithful",
     "map": 1156,
     "fights": [
-        /*{
+        {
             "mob": "McLeod",
-            "coord": [ 0, 0, 0 ],
-            "radius": 0,
+            "coord": [ -100, 424, 135 ],
+            "radius": 40,
             "lines": [
                 {
                     "pct": 75,
@@ -23,7 +23,7 @@
                     "description": "Split"
                 }
             ]
-        },*/
+        },
         {
             "mob": "Keep Construct",
             "coord": [ -97.98, 237.25, 150.15 ],
