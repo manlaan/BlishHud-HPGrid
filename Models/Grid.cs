@@ -26,10 +26,10 @@ namespace HPGrid.Models
         [JsonPropertyName("lines")]
         public List<GridLine> Lines { get; set; }
 
-        public bool InRadius(Vector3 point, float radius)
+        public bool InRadius(Vector3 point)
         {
             float distance = (new Vector3 (Coord[0], Coord[1], Coord[2]) - point).Length();
-            if (distance <= radius)
+            if (distance <= Radius)
                 return true;
             else
                 return false;

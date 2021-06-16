@@ -34,8 +34,8 @@ namespace HPGrid
         private JsonSerializerOptions _jsonOptions;
         private DrawGrid _gridImg;
 
-        private string[] jsonfiles = { 
-            //"Test.json",
+        private string[] _jsonfiles = { 
+            "sample.txt",
             //"Fractal_Aetherblade.json",  //None
             "Fractal_AquaticRuins.json",
             "Fractal_CaptainMaiTrin.json",  
@@ -86,7 +86,7 @@ namespace HPGrid
 
         protected override async Task LoadAsync()
         {
-            foreach (string s in jsonfiles)
+            foreach (string s in _jsonfiles)
             {
                 ExtractFile(s);
             }
@@ -120,12 +120,7 @@ namespace HPGrid
                 {
                     foreach (GridFight _fight in _grid.Fights)
                     {
-                        bool pass = _fight.InRadius(
-                            GameService.Gw2Mumble.PlayerCharacter.Position, 
-                            _fight.Radius
-                        );
-
-                        if (pass)
+                        if (_fight.InRadius(GameService.Gw2Mumble.PlayerCharacter.Position))
                         {
                             _gridImg.SetSize();
                             _gridImg.Visible = true;
@@ -158,7 +153,7 @@ namespace HPGrid
             }
             catch (Exception ex)
             {
-                Logger.Error("HPGrid deserialization failure: "+fileStream.ToString()+"" + ex.Message);
+                Logger.Error("HPGrid deserialization failure: " + ex.Message);
             }
         }
 
