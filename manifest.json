@@ -7,12 +7,13 @@
 
     "description": "Displays grid over HP bar\n\nOriginal HPGrid file from QuitarHero's Marker Pack https://github.com/QuitarHero/Heros-Marker-Pack",
     "dependencies": {
-        "bh.blishhud": ">=0.5.2"
+        "bh.blishhud": ">=0.7.0"
     },
     "url": "https://github.com/manlaan/BlishHud-HPGrid",
     "contributors": [
         {
-            "name": "Manlaan"
+            "name": "Manlaan",
+            "username": "manlaan.8921"
         }
     ],
     "directories": [ "hpgrid" ]
