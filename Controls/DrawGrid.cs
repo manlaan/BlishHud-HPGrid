@@ -28,7 +28,7 @@ namespace HPGrid
 
     class DrawGrid : Container
     {
-        public List<GridLine> Lines = null;
+        public List<GridPhase> Phases = null;
         Texture2D arrow;
         List<ArrowNote> arrowNotes = new List<ArrowNote>();
 
@@ -127,13 +127,13 @@ namespace HPGrid
         {
             //spriteBatch.DrawOnCtrl(this, ContentService.Textures.Pixel, new Rectangle(0, 0, Size.X-15, Size.Y-15), Color.White);
 
-            if (Lines != null)
+            if (Phases != null)
             {
                 arrowNotes.Clear();
-                foreach (GridLine _line in Lines)
+                foreach (GridPhase phase in Phases)
                 {
-                    Color color = FindColor(_line.color);
-                    float pct = (float)_line.pct / 100f * ((float)this.Size.X-15);
+                    Color color = FindColor(phase.Color);
+                    float pct = (float)phase.Percent / 100f * ((float)this.Size.X-15);
                     spriteBatch.DrawOnCtrl(this,
                         ContentService.Textures.Pixel,
                         new Rectangle((int)pct, 0, 1, Size.Y - 15),
@@ -150,7 +150,7 @@ namespace HPGrid
                         new ArrowNote()
                         {
                             Loc = new Vector2(this.Location.X + (int)pct, this.Location.Y + Size.Y - 8),  
-                            Note = _line.pct + "%: " + _line.description
+                            Note = phase.Percent + "%: " + phase.Description
                         });
                 }
             }

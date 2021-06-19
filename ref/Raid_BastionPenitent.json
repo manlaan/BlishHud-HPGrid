@@ -3,158 +3,158 @@
     "map": 1188,
     "fights": [
         {
-            "mob": "Cairn",
-            "coord": [ 364.77, 51.245, 33.7205 ],
+            "name": "Cairn",
+            "position": [ 364.77, 51.245, 33.7205 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Green Pattern 1"
                 },
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Green Pattern 2"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Green Pattern 3"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Green Pattern 4"
                 }
             ]
         },
         {
-            "mob": "Musaat Overseer",
-            "coord": [ 67.202, 101.103, 106.187 ],
+            "name": "Musaat Overseer",
+            "position": [ 67.202, 101.103, 106.187 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Pattern 1"
                 },
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Pattern 2"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Pattern 3"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Pattern 4"
                 }
             ]
         },
         {
-            "mob": "Samarog",
-            "coord": [ -102.573, 77.347, 129.488 ],
+            "name": "Samarog",
+            "position": [ -102.573, 77.347, 129.488 ],
             "radius": 70,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 70,
+                    "percent": 70,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Rigom, Lock Key Starts"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Rigom, Large Spears"
                 },
                 {
-                    "pct": 30,
+                    "percent": 30,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 10,
+                    "percent": 10,
                     "color": "Black",
                     "description": "Breakbar"
                 }
             ]
         },
         {
-            "mob": "Deimos",
-            "coord": [ -213.241, 77.496, 101.924 ],
+            "name": "Deimos",
+            "position": [ -213.241, 77.496, 101.924 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Chain Teleport, Greed and Pride"
                 },
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Thief Teleport, Tears Start"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Oil Starts"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Gambler Teleport"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Greed and Pride"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Drunkard Teleport"
                 },
                 {
-                    "pct": 10,
+                    "percent": 10,
                     "color": "Black",
                     "description": "All Teleport"
                 }

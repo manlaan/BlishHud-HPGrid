@@ -10,54 +10,54 @@ All module files get overwritten each time, so if you want to add fights to an e
     "map": 1154,    //Map ID.   Easiest to get by using Mumble Info Module, then pressing = to get display.  
     "fights": [
         {
-            "mob": "Golem",  //name of boss or fight.  
-            "coord": [ 506.468, -320.143, 2.467 ],   //Center coordinates.   Stand in middle of area and use Mumble Info
+            "name": "Golem",  //name of boss or fight.  
+            "position": [ 506.468, -320.143, 2.467 ],   //Center position.   Stand in middle of area and use Mumble Info
             "radius": 25,   //Radius of battle field.  Use Mumble Info and either do math sqrt( (x2-x1)^2 + (y2-y2)^2 )  or Google "distance between two points" and find a calculator  ( https://www.calculatorsoup.com/calculators/geometry-plane/distance-two-points.php )
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,  //Percent to draw line
-                    "color": "Black",  //Color of line.  https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.colors?view=net-5.0&viewFallbackFrom=net-4.7.2   Remember, lines sits on top of a red background, but also always shows if you have a target or not while in the area.   
+                    "percent": 100,  //Percent to draw line
+                    "color": "Black",  //Color of line.  https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.colors?view=net-5.0&viewFallbackFrom=net-4.7.2   Remember, phase sits on top of a red background, but also always shows if you have a target or not while in the area.   
                     "description": "description"   // Reason for line, and text to display to the user when clicking on arrow.  
                 },    //be careful of when to use comma's.   The last item in the list does not get a comma.  
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "description"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Red",
                     "description": "Test2"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Purple",
                     "description": "Test3"
                 },
                 {
-                    "pct": 10,
+                    "percent": 10,
                     "color": "White",
                     "description": "Test3"
                 }   //Note: no comma here because its the end of a list.  
             ]
         },  //Note: comma here because its not the end of a list.  
         {
-            "mob": "Mob 2",
-            "coord": [ 0, 0, 0 ],   
+            "name": "name 2",
+            "position": [ 0, 0, 0 ],   
             "radius": 25,   
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "description"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "description"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "description"
                 }

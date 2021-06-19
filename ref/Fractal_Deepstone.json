@@ -4,143 +4,143 @@
     "fights": [
         /*
         {
-            "mob": "Spider",
-            "coord": [ 220.066, -112.403, 266.834 ],
+            "name": "Spider",
+            "position": [ 220.066, -112.403, 266.834 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 15,
+                    "percent": 15,
                     "color": "Black",
                     "description": "?"
                 }
             ]
         },*/
         {
-            "mob": "Spark",
-            "coord": [ -65.355, 4.299, 266.843 ],
+            "name": "Spark",
+            "position": [ -65.355, 4.299, 266.843 ],
             "radius": 35,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Wind Sprites"
                 },
                 /*{
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "?"
                 },*/
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Wind Sprites"
                 },
                 /*{
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 },*/
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Wind Sprites"
                 },
                 /*{
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "?"
                 },*/
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "Wind Sprites"
                 }
             ]
         },
         /*{
-            "mob": "Shadow Minotaur",
-            "coord": [ 16.9738, -139.573, 266.833 ],
+            "name": "Shadow Minotaur",
+            "position": [ 16.9738, -139.573, 266.833 ],
             "radius": 25,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "?"
                 }
             ]
         },*/
         {
-            "mob": "Voice",
-            "coord": [ 16.769, 311.667, 119.814 ],
+            "name": "Voice",
+            "position": [ 16.769, 311.667, 119.814 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "Teleport"
                 },
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Teleport and Breakbar"
                 },
                 {
-                    "pct": 70,
+                    "percent": 70,
                     "color": "Black",
                     "description": "Teleport"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Spectral Flames"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Teleport"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Teleport and Breakbar"
                 },
                 {
-                    "pct": 30,
+                    "percent": 30,
                     "color": "Black",
                     "description": "Teleport"
                 },
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "Spectral Flames"
                 }

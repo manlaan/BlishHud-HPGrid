@@ -3,34 +3,34 @@
     "map": 1309,
     "fights": [
         {
-            "mob": "Stonehead",
-            "coord": [ 144.126, 200.437, 8.108 ],
+            "name": "Stonehead",
+            "position": [ 144.126, 200.437, 8.108 ],
             "radius": 20,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Dead"
                 }
             ]
         },
         {
-            "mob": "Ship Bosses",
-            "coord": [ -171.814, 95.962, 5.916 ],
+            "name": "Ship Bosses",
+            "position": [ -171.814, 95.962, 5.916 ],
             "radius": 20,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Adds, Wind 1 Starts"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Adds, Wind 2 Starts"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Adds"
                 }

@@ -3,64 +3,64 @@
     "map": 1149,
     "fights": [
         {
-            "mob": "Slothasor",
-            "coord": [ 197.181, -13.809, 0.604 ],
+            "name": "Slothasor",
+            "position": [ 197.181, -13.809, 0.604 ],
             "radius": 60,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Narcolepsy"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Narcolepsy"
                 },
                 /*{
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Spores Start"
                 },*/
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Narcolepsy"
                 },
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "Narcolepsy"
                 },
                 {
-                    "pct": 10,
+                    "percent": 10,
                     "color": "Black",
                     "description": "Narcolepsy"
                 }
             ]
         },
         {
-            "mob": "Matthias",
-            "coord": [ -150.859, 149.735, 131.523 ],
+            "name": "Matthias",
+            "position": [ -150.859, 149.735, 131.523 ],
             "radius": 42,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Ice"
                 },
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Fire"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Storm"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "All + Spirits"
                 }

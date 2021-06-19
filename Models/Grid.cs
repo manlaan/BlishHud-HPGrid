@@ -19,16 +19,16 @@ namespace HPGrid.Models
     {
         [JsonPropertyName("name")]
         public string Name { get; set; }
-        [JsonPropertyName("coord")]
-        public List<float> Coord { get; set; }
+        [JsonPropertyName("position")]
+        public List<float> Position { get; set; }
         [JsonPropertyName("radius")]
         public float Radius { get; set; }
-        [JsonPropertyName("lines")]
-        public List<GridLine> Lines { get; set; }
+        [JsonPropertyName("phase")]
+        public List<GridPhase> Phase { get; set; }
 
         public bool InRadius(Vector3 point)
         {
-            float distance = (new Vector3 (Coord[0], Coord[1], Coord[2]) - point).Length();
+            float distance = (new Vector3 (Position[0], Position[1], Position[2]) - point).Length();
             if (distance <= Radius)
                 return true;
             else
@@ -36,13 +36,13 @@ namespace HPGrid.Models
         }
     }
 
-    public class GridLine
+    public class GridPhase
     {
-        [JsonPropertyName("pct")]
-        public int pct { get; set; }
+        [JsonPropertyName("percent")]
+        public int Percent { get; set; }
         [JsonPropertyName("color")]
-        public string color { get; set; }
+        public string Color { get; set; }
         [JsonPropertyName("description")]
-        public string description { get; set; }
+        public string Description { get; set; }
     }
 }

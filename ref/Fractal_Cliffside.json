@@ -3,22 +3,22 @@
     "map": 952,
     "fights": [
         {
-            "mob": "Archdiviner",
-            "coord": [ 124.775, -10.849, 714.702 ],
+            "name": "Archdiviner",
+            "position": [ 124.775, -10.849, 714.702 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Use Hammer"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Use Hammer"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Use Hammer"
                 }

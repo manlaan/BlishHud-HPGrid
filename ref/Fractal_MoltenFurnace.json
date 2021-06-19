@@ -3,32 +3,32 @@
     "map": 955,
     "fights": [
         {
-            "mob": "Thermal Core and Engineer",
-            "coord": [ -235.77, 27.258, 226.41 ],
+            "name": "Thermal Core and Engineer",
+            "position": [ -235.77, 27.258, 226.41 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Engineer Moves"
                 },
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Core Phase"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Engineer Moves"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Core Phase"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Engineer Moves"
                 }

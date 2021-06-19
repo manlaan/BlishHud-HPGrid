@@ -4,22 +4,22 @@
     "map": 953,
     "fights": [
         {
-            "mob": "Rabsovich",
-            "coord": [ 639.16, 121.697, 60.1219 ],
+            "name": "Rabsovich",
+            "position": [ 639.16, 121.697, 60.1219 ],
             "radius": 25,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "?"
                 }

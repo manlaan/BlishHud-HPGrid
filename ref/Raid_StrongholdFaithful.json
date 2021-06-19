@@ -3,71 +3,71 @@
     "map": 1156,
     "fights": [
         {
-            "mob": "McLeod",
-            "coord": [ -100, 424, 135 ],
+            "name": "McLeod",
+            "position": [ -100, 424, 135 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Split"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Split"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Split"
                 }
             ]
         },
         {
-            "mob": "Keep Construct",
-            "coord": [ -97.98, 237.25, 150.15 ],
+            "name": "Keep Construct",
+            "position": [ -97.98, 237.25, 150.15 ],
             "radius": 31,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Orb Collection"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Orb Collection"
                 }
             ]
         },
         {
-            "mob": "Xera",
-            "coord": [ -77.061, -80.438, 512.354 ],
+            "name": "Xera",
+            "position": [ -77.061, -80.438, 512.354 ],
             "radius": 100,
-            "lines": [
+            "phase": [
                 /*{
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "?"
                 },
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "?"
                 },*/
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Platforms"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Games (Rifts)"
                 },
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "Games (Buttons)"
                 }

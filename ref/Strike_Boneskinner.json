@@ -3,17 +3,17 @@
     "map": 1339,
     "fights": [
         {
-            "mob": "Boneskinner",
-            "coord": [ 15.468, -2.189, 179.712 ],
+            "name": "Boneskinner",
+            "position": [ 15.468, -2.189, 179.712 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "Wisps Start"
                 },
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Jumps Away"
                 }

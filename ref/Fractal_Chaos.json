@@ -3,44 +3,44 @@
     "map": 1164,
     "fights": [
         {
-            "mob": "Chaos Anomaly",
-            "coord": [ 5.642, -147.007, 584.822 ],
+            "name": "Chaos Anomaly",
+            "position": [ 5.642, -147.007, 584.822 ],
             "radius": 35,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Golems Spawn"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Golems Spawn"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Golems Spawn"
                 }
             ]
         },
         {
-            "mob": "Gladiator",
-            "coord": [ 61.314, 114.298, 500.299 ],
+            "name": "Gladiator",
+            "position": [ 61.314, 114.298, 500.299 ],
             "radius": 33,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "JT Spawn"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Begin Spin/Pull Attacks, JT Spawn"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "JT Spawn"
                 }

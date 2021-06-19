@@ -3,44 +3,44 @@
     "map": 957,
     "fights": [
         {
-            "mob": "Subject 6",
-            "coord": [ 116.209, 140.854, 21.683 ],
+            "name": "Subject 6",
+            "position": [ 116.209, 140.854, 21.683 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Golden Ooze"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Golden Ooze"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Golden Ooze"
                 }
             ]
         },
         {
-            "mob": "Anomaly",
-            "coord": [ 0.529, -0.447, 61.499 ],
+            "name": "Anomaly",
+            "position": [ 0.529, -0.447, 61.499 ],
             "radius": 45,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Platform Shrinks"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Platform Shrinks"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Platform Shrinks"
                 }

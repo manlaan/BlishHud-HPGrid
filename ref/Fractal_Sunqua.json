@@ -3,56 +3,56 @@
     "map": 1384,
     "fights": [
         {
-            "mob": "Voice of the Mountain",
-            "coord": [ -102.111, -203.122, 78.678 ],
+            "name": "Voice of the Mountain",
+            "position": [ -102.111, -203.122, 78.678 ],
             "radius": 30,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Jumpers"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Jumpers"
                 }
             ]
         },
         {
-            "mob": "Fury of the Moutain",
-            "coord": [ -12.78, 97.35, 212.364 ],
+            "name": "Fury of the Moutain",
+            "position": [ -12.78, 97.35, 212.364 ],
             "radius": 30,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Meteors"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Meteors"
                 }
             ]
         },
         {
-            "mob": "Sorrowful Spellcaster",
-            "coord": [ 175.836, 35.352, 247.991 ],
+            "name": "Sorrowful Spellcaster",
+            "position": [ 175.836, 35.352, 247.991 ],
             "radius": 40,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Air (CM: Fear)"
                 },
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Fire (CM: Sorrow)"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Water (CM: Guilt)"
                 }

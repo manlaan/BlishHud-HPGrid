@@ -3,34 +3,34 @@
     "map": 949,
     "fights": [
         {
-            "mob": "Mossman",
-            "coord": [ 13.327, -23.291, -0.355 ],
+            "name": "Mossman",
+            "position": [ 13.327, -23.291, -0.355 ],
             "radius": 20,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Wolf Transform"
                 }
             ]
         },
         {
-            "mob": "Bloomhunger",
-            "coord": [ -115.642, -129.372, 0.462 ],
+            "name": "Bloomhunger",
+            "position": [ -115.642, -129.372, 0.462 ],
             "radius": 75,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Adds"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Adds"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Wisps"
                 }

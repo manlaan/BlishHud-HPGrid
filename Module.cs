@@ -124,7 +124,7 @@ namespace HPGrid
                         {
                             _gridImg.SetSize();
                             _gridImg.Visible = true;
-                            _gridImg.Lines = _fight.Lines;
+                            _gridImg.Phases = _fight.Phase;
                         }
                     }
                 }

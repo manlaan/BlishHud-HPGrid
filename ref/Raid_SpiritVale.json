@@ -3,56 +3,56 @@
     "map": 1062,
     "fights": [
         {
-            "mob": "Vale Guardian",
-            "coord": [ -121.367, -524, 61 ],
+            "name": "Vale Guardian",
+            "position": [ -121.367, -524, 61 ],
             "radius": 45,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Split"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Split"
                 }
             ]
         },
         {
-            "mob": "Gorseval",
-            "coord": [ 41, -113, 48 ],
+            "name": "Gorseval",
+            "position": [ 41, -113, 48 ],
             "radius": 85,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Charged Souls"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Charged Souls"
                 }
             ]
         },
         {
-            "mob": "Sabetha",
-            "coord": [ -129.058, 84.904, 62.411 ],
+            "name": "Sabetha",
+            "position": [ -129.058, 84.904, 62.411 ],
             "radius": 90,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Kernan Spawns"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Knuckles Spawns"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Karde Spawns"
                 }

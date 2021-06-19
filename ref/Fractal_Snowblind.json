@@ -3,22 +3,22 @@
     "map": 948,
     "fights": [
         {
-            "mob": "Shaman Lonarr Dragons",
-            "coord": [ 182.792, -60.094, 22.161 ],
+            "name": "Shaman Lonarr Dragons",
+            "position": [ 182.792, -60.094, 22.161 ],
             "radius": 25,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Effigy Spawn"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Effigy Spawn"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Bear Transform"
                 }

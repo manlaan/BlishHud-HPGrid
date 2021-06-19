@@ -3,71 +3,71 @@
     "map": 1177,
     "fights": [
         {
-            "mob": "Mama",
-            "coord": [ 98.660, 155.054, 13.991 ],
+            "name": "Mama",
+            "position": [ 98.660, 155.054, 13.991 ],
             "radius": 45,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "East Knight"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "North West Knight"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Starts Moving"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "South Knight"
                 }
             ]
         },
         {
-            "mob": "Siax",
-            "coord": [ 43.329, -76.154, 44.344 ],
+            "name": "Siax",
+            "position": [ 43.329, -76.154, 44.344 ],
             "radius": 35,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Toxin and Hallucinations Start"
                 },
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Echos of the Unclean"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Echos of the Unclean"
                 }
             ]
         },
         {
-            "mob": "Ensolyss",
-            "coord": [ 40.281, 37.018, 44.637 ],
+            "name": "Ensolyss",
+            "position": [ 40.281, 37.018, 44.637 ],
             "radius": 30,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Balls"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Balls"
                 },
                 {
-                    "pct": 15,
+                    "percent": 15,
                     "color": "Black",
                     "description": "Center"
                 }

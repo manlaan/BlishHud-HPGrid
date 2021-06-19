@@ -3,17 +3,17 @@
     "map": 1332,
     "fights": [
         {
-            "mob": "Icebrood Construct",
-            "coord": [ -780.747, -247.616, 159.696 ],
+            "name": "Icebrood Construct",
+            "position": [ -780.747, -247.616, 159.696 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 85,
+                    "percent": 85,
                     "color": "Black",
                     "description": "Wind"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Arm Lost"
                 }

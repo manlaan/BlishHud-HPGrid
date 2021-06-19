@@ -3,39 +3,39 @@
     "map": 1303,
     "fights": [
         {
-            "mob": "Twin Largos",
-            "coord": [ 367.233, 35.508, 32.067 ],
+            "name": "Twin Largos",
+            "position": [ 367.233, 35.508, 32.067 ],
             "radius": 140,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Platform"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Platform"
                 }
             ]
         },
         {
-            "mob": "Qadim",
-            "coord": [ -188.749, 306.659, 127.28 ],
+            "name": "Qadim",
+            "position": [ -188.749, 306.659, 127.28 ],
             "radius": 150,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Phase 1"
                 },
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Phase 2"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Phase 3"
                 }

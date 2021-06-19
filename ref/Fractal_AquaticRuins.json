@@ -3,22 +3,22 @@
     "map": 951,
     "fights": [
         {
-            "mob": "Jellyfish Beast",
-            "coord": [ -76.299, -20.194, -179.883 ],
+            "name": "Jellyfish Beast",
+            "position": [ -76.299, -20.194, -179.883 ],
             "radius": 25,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Elite Krait Diviners"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Elite Krait Diviners"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Elite Krait Diviners"
                 }

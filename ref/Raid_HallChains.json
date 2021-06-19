@@ -3,39 +3,39 @@
     "map": 1264,
     "fights": [
         {
-            "mob": "Soulless Horror",
-            "coord": [ -269.516, 21.629, 20.762 ],
+            "name": "Soulless Horror",
+            "position": [ -269.516, 21.629, 20.762 ],
             "radius": 45,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "Walls - 2 Segments"
                 },
                 {
-                    "pct": 66,
+                    "percent": 66,
                     "color": "Black",
                     "description": "Walls - 3 Segments"
                 },
                 {
-                    "pct": 33,
+                    "percent": 33,
                     "color": "Black",
                     "description": "Walls - 4 Segments"
                 }
             ]
         },
         {
-            "mob": "Dhuum",
-            "coord": [ 400.948, 16.892, 162.593 ],
+            "name": "Dhuum",
+            "position": [ 400.948, 16.892, 162.593 ],
             "radius": 60,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Soul Shackel Starts"
                 },
                 {
-                    "pct": 10,
+                    "percent": 10,
                     "color": "Black",
                     "description": "Orbs"
                 }

@@ -3,34 +3,34 @@
     "map": 954,
     "fights": [
         {
-            "mob": "Grawl Shaman",
-            "coord": [ 219.341, -707.609, 54.277 ],
+            "name": "Grawl Shaman",
+            "position": [ 219.341, -707.609, 54.277 ],
             "radius": 13,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Dead"
                 }
             ]
         },
         {
-            "mob": "Imbued Shaman",
-            "coord": [ 250.965, -808.191, 10.365 ],
+            "name": "Imbued Shaman",
+            "position": [ 250.965, -808.191, 10.365 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Shield"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Shield"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Shield"
                 }

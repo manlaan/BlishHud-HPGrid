@@ -3,175 +3,175 @@
     "map": 1323,
     "fights": [
         {
-            "mob": "Sabir 1",
-            "coord": [ -294.783, 96.448, 57.743 ],
+            "name": "Sabir 1",
+            "position": [ -294.783, 96.448, 57.743 ],
             "radius": 31,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Next Platform"
                 }
             ]
         },
         {
-            "mob": "Sabir 2",
-            "coord": [ -337.489, 63.849, 101.658 ],
+            "name": "Sabir 2",
+            "position": [ -337.489, 63.849, 101.658 ],
             "radius": 31,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Unbridled Tempest"
                 },
                 {
-                    "pct": 70,
+                    "percent": 70,
                     "color": "Black",
                     "description": "Breakbar"
                 },
                 {
-                    "pct": 65,
+                    "percent": 65,
                     "color": "Black",
                     "description": "Unbridled Tempest"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Next Platform"
                 }
             ]
         },
         {
-            "mob": "Sabir 3",
-            "coord": [ -307.353, 61.216, 166.229 ],
+            "name": "Sabir 3",
+            "position": [ -307.353, 61.216, 166.229 ],
             "radius": 45,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Twister, Corners Start"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "Wisp"
                 },
                 {
-                    "pct": 30,
+                    "percent": 30,
                     "color": "Black",
                     "description": "Wisp"
                 },
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "Wisp"
                 },
                 {
-                    "pct": 10,
+                    "percent": 10,
                     "color": "Black",
                     "description": "Wisp"
                 }
             ]
         },
         {
-            "mob": "Adina",
-            "coord": [ 378.666, -37.280, 7.752 ],
+            "name": "Adina",
+            "position": [ 378.666, -37.280, 7.752 ],
             "radius": 30,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Wall"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Wall"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Wall"
                 }
             ]
         },
         {
-            "mob": "Qadim the Peerless",
-            "coord": [ 42.0447, 251.145, 16.8169 ],
+            "name": "Qadim the Peerless",
+            "position": [ 42.0447, 251.145, 16.8169 ],
             "radius": 100,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 95,
+                    "percent": 95,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 90,
+                    "percent": 90,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 85,
+                    "percent": 85,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 80,
+                    "percent": 80,
                     "color": "Black",
                     "description": "Drop Fire"
                 },
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 70,
+                    "percent": 70,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 65,
+                    "percent": 65,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 60,
+                    "percent": 60,
                     "color": "Black",
                     "description": "Drop Fire"
                 },
                 {
-                    "pct": 55,
+                    "percent": 55,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 45,
+                    "percent": 45,
                     "color": "Black",
                     "description": "Orb"
                 },
                 {
-                    "pct": 40,
+                    "percent": 40,
                     "color": "Black",
                     "description": "North Pylon Destroyed"
                 },
                 {
-                    "pct": 30,
+                    "percent": 30,
                     "color": "Black",
                     "description": "SouthWest Pylon Destroyed"
                 },
                 {
-                    "pct": 20,
+                    "percent": 20,
                     "color": "Black",
                     "description": "SouthEast Pylon Destroyed"
                 }

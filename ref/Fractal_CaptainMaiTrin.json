@@ -3,22 +3,22 @@
     "map": 960,
     "fights": [
         {
-            "mob": "Mai Trin",
-            "coord": [ -30.908, -68.189, 77.741 ],
+            "name": "Mai Trin",
+            "position": [ -30.908, -68.189, 77.741 ],
             "radius": 33,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Swap Champians"
                 },
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Swap Champians"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Swap Champians"
                 }

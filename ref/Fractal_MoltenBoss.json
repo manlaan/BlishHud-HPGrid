@@ -3,24 +3,24 @@
     "map": 959,
     "fights": [
         /*{
-            "mob": "Effigy",
-            "coord": [ -82.627, 5.526, 128.377 ],
+            "name": "Effigy",
+            "position": [ -82.627, 5.526, 128.377 ],
             "radius": 25,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "?"
                 }
             ]
         },*/
         {
-            "mob": "Boss Duo",
-            "coord": [ 139.864, -113.692, 123.391 ],
+            "name": "Boss Duo",
+            "position": [ 139.864, -113.692, 123.391 ],
             "radius": 50,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "Adds Spawn"
                 }

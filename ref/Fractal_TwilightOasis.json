@@ -3,85 +3,85 @@
     "map": 1267,
     "fights": [
         /*{
-            "mob": "Sandblinder 1",
-            "coord": [ 19.320, 32.448, 10.657 ],
+            "name": "Sandblinder 1",
+            "position": [ 19.320, 32.448, 10.657 ],
             "radius": 22,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 }
             ]
         },
         {
-            "mob": "Sandblinder 2",
-            "coord": [ 25.465, 63.832, 42.756 ],
+            "name": "Sandblinder 2",
+            "position": [ 25.465, 63.832, 42.756 ],
             "radius": 22,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 }
             ]
         },
         {
-            "mob": "Sandblinder 3",
-            "coord": [ 147.424, 91.265, 45.918 ],
+            "name": "Sandblinder 3",
+            "position": [ 147.424, 91.265, 45.918 ],
             "radius": 22,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 50,
+                    "percent": 50,
                     "color": "Black",
                     "description": "?"
                 }
             ]
         },*/
         {
-            "mob": "Priestess Amala 1",
-            "coord": [ 119.681, 42.326, 1.930 ],
+            "name": "Priestess Amala 1",
+            "position": [ 119.681, 42.326, 1.930 ],
             "radius": 20,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 75,
+                    "percent": 75,
                     "color": "Black",
                     "description": "Dead"
                 }
             ]
         },
         {
-            "mob": "Priestess Amala 2",
-            "coord": [ 194.401, -31.913, 12.619 ],
+            "name": "Priestess Amala 2",
+            "position": [ 194.401, -31.913, 12.619 ],
             "radius": 45,
-            "lines": [
+            "phase": [
                 {
-                    "pct": 100,
+                    "percent": 100,
                     "color": "Black",
                     "description": "Lyssa  Phase (Clones)"
                 },
                 {
-                    "pct": 85,
+                    "percent": 85,
                     "color": "Black",
                     "description": "Melandru Phase (Elemental)"
                 },
                 {
-                    "pct": 65,
+                    "percent": 65,
                     "color": "Black",
                     "description": "Dwayna Phase (Lightning)"
                 },
                 {
-                    "pct": 45,
+                    "percent": 45,
                     "color": "Black",
                     "description": "Grenth Phase (Necro)"
                 },
                 {
-                    "pct": 25,
+                    "percent": 25,
                     "color": "Black",
                     "description": "Balthazar Phase (Fire)"
                 },
                 {
-                    "pct": 5,
+                    "percent": 5,
                     "color": "Black",
                     "description": "Amala Phase (Fire)"
                 }
