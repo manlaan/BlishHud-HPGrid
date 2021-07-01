@@ -46,12 +46,12 @@
             "position": [ -77.061, -80.438, 512.354 ],
             "radius": 100,
             "phase": [
-                /*{
-                    "percent": 90,
-                    "color": "Black",
-                    "description": "?"
-                },
                 {
+                    "percent": 90,
+                    "color": "Gray",
+                    "description": "Breakbar"
+                },
+                /*{
                     "percent": 75,
                     "color": "Black",
                     "description": "?"

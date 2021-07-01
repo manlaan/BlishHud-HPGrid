@@ -43,7 +43,7 @@
             "phase": [
                 {
                     "percent": 80,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Balls"
                 },
                 {
@@ -53,7 +53,7 @@
                 },
                 {
                     "percent": 50,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Balls"
                 },
                 {
@@ -63,7 +63,7 @@
                 },
                 {
                     "percent": 30,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Balls"
                 }
             ]

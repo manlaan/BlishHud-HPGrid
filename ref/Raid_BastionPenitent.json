@@ -63,17 +63,17 @@
             "phase": [
                 {
                     "percent": 90,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
                     "percent": 80,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
                     "percent": 70,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
@@ -83,17 +83,17 @@
                 },
                 {
                     "percent": 60,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
                     "percent": 50,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
                     "percent": 40,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
@@ -103,17 +103,17 @@
                 },
                 {
                     "percent": 30,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
                     "percent": 20,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 },
                 {
                     "percent": 10,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Breakbar"
                 }
             ]

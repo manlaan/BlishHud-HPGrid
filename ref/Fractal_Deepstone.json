@@ -104,41 +104,41 @@
             "position": [ 16.769, 311.667, 119.814 ],
             "radius": 50,
             "phase": [
-                {
+                /*{
                     "percent": 90,
                     "color": "Black",
                     "description": "Teleport"
-                },
+                },*/
                 {
                     "percent": 80,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Teleport and Breakbar"
                 },
-                {
+                /*{
                     "percent": 70,
                     "color": "Black",
                     "description": "Teleport"
-                },
+                },*/
                 {
                     "percent": 60,
                     "color": "Black",
                     "description": "Spectral Flames"
                 },
-                {
+                /*{
                     "percent": 50,
                     "color": "Black",
                     "description": "Teleport"
-                },
+                },*/
                 {
                     "percent": 40,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Teleport and Breakbar"
                 },
-                {
+                /*{
                     "percent": 30,
                     "color": "Black",
                     "description": "Teleport"
-                },
+                },*/
                 {
                     "percent": 20,
                     "color": "Black",

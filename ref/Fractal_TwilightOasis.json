@@ -62,22 +62,22 @@
                 },
                 {
                     "percent": 85,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Melandru Phase (Elemental)"
                 },
                 {
                     "percent": 65,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Dwayna Phase (Lightning)"
                 },
                 {
                     "percent": 45,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Grenth Phase (Necro)"
                 },
                 {
                     "percent": 25,
-                    "color": "Black",
+                    "color": "Gray",
                     "description": "Balthazar Phase (Fire)"
                 },
                 {

@@ -9,13 +9,13 @@
             "phase": [
                 {
                     "percent": 80,
-                    "color": "Black",
-                    "description": "Narcolepsy"
+                    "color": "Gray",
+                    "description": "Narcolepsy - Breakbar"
                 },
                 {
                     "percent": 60,
-                    "color": "Black",
-                    "description": "Narcolepsy"
+                    "color": "Gray",
+                    "description": "Narcolepsy - Breakbar"
                 },
                 /*{
                     "percent": 50,
@@ -24,18 +24,18 @@
                 },*/
                 {
                     "percent": 40,
-                    "color": "Black",
-                    "description": "Narcolepsy"
+                    "color": "Gray",
+                    "description": "Narcolepsy - Breakbar"
                 },
                 {
                     "percent": 20,
-                    "color": "Black",
-                    "description": "Narcolepsy"
+                    "color": "Gray",
+                    "description": "Narcolepsy - Breakbar"
                 },
                 {
                     "percent": 10,
-                    "color": "Black",
-                    "description": "Narcolepsy"
+                    "color": "Gray",
+                    "description": "Narcolepsy - Breakbar"
                 }
             ]
         },
