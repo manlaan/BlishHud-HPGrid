@@ -7,10 +7,124 @@ using Blish_HUD.Controls;
 using Blish_HUD.Input;
 using HPGrid.Models;
 
-
 namespace HPGrid
 {
+    class DrawGrid : Container
+    {
+        public List<GridPhase> Phases = null;
+        public bool ShowDesc = false;
+        private Texture2D _arrowImg;
+        private List<ArrowNote> _arrowNotes = new List<ArrowNote>();
+        private Point _resolution = new Point(0, 0);
 
+            
+        public DrawGrid()
+        {
+            _resolution = new Point(System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width, System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height);
+            
+            Disposed += OnDisposed; 
+            this.Visible = true;
+            _arrowImg = Module.ModuleInstance.ContentsManager.GetTexture("arrow.png");
+            GameService.Input.Mouse.LeftMouseButtonPressed += OnMousePressed;
+        }
+        private void OnDisposed(object sender, EventArgs e)
+        {
+            GameService.Input.Mouse.LeftMouseButtonPressed -= OnMousePressed;
+        }
+        private void OnMousePressed(object o, MouseEventArgs e)
+        {
+            foreach (ArrowNote _note in _arrowNotes)
+            {
+                if (_note.InRadius(new Vector2(Input.Mouse.Position.X, Input.Mouse.Position.Y), 6))
+                {
+                    ScreenNotification.ShowNotification(_note.Note);
+                }
+            }
+        }
+
+        public void SetSize()
+        {
+            int w = 0;
+            int h = 0;
+            int x = 0;
+            int y = 0;
+
+            float UIScale = GameService.Graphics.UIScaleMultiplier;
+
+            switch (GameService.Gw2Mumble.UI.UISize)
+            {
+                case Gw2Sharp.Mumble.Models.UiSize.Larger:
+                    w = (int)(311 / UIScale);
+                    h = (int)(18 / UIScale);
+                    y = (int)(106 / UIScale);
+                    x = (int)((_resolution.X / 2 - 218) / UIScale);
+                    break;
+                case Gw2Sharp.Mumble.Models.UiSize.Large:
+                    w = (int)(280 / UIScale);
+                    h = (int)(15 / UIScale);
+                    y = (int)(97 / UIScale);
+                    x = (int)((_resolution.X / 2 - 198) / UIScale);
+                    break;
+                case Gw2Sharp.Mumble.Models.UiSize.Normal:
+                    w = (int)(253 / UIScale);
+                    h = (int)(15 / UIScale);
+                    y = (int)(87 / UIScale);
+                    x = (int)((_resolution.X / 2 - 178) / UIScale);
+                    break;
+                case Gw2Sharp.Mumble.Models.UiSize.Small:
+                    w = (int)(228 / UIScale);
+                    h = (int)(13 / UIScale);
+                    y = (int)(78 / UIScale);
+                    x = (int)((_resolution.X / 2 - 160) / UIScale);
+                    break;
+            }
+
+            this.Size = new Point(w + 15, h + 15);
+            this.Location = new Point(x, y);
+        }
+        public override void PaintAfterChildren(SpriteBatch spriteBatch, Rectangle bounds)
+        {
+            //spriteBatch.DrawOnCtrl(this, ContentService.Textures.Pixel, new Rectangle(0, 0, Size.X-15, Size.Y-15), Color.White);
+
+            if (Phases != null)
+            {
+                _arrowNotes.Clear();
+                foreach (GridPhase phase in Phases)
+                {
+                    Color color = FindColor(phase.Color);
+                    float pct = (float)phase.Percent / 100f * ((float)this.Size.X-15);
+                    spriteBatch.DrawOnCtrl(this,
+                        ContentService.Textures.Pixel,
+                        new Rectangle((int)pct, 0, 1, Size.Y - 15),
+                        null,
+                        color
+                        );
+                    if (this.ShowDesc)
+                    {
+                        spriteBatch.DrawOnCtrl(this,
+                            _arrowImg,
+                            new Rectangle((int)pct - 5, Size.Y - 15, 11, 11),
+                            null,
+                            Color.White
+                            );
+                        _arrowNotes.Add(
+                            new ArrowNote()
+                            {
+                                Loc = new Vector2(this.Location.X + (int)pct, this.Location.Y + Size.Y - 8),
+                                Note = phase.Percent + "%: " + phase.Description
+                            });
+                    }
+                }
+            }
+        }
+        private Color FindColor(string colorname)
+        {
+            if (colorname == null) colorname = "Black";
+            System.Drawing.Color systemColor = System.Drawing.Color.FromName(colorname);
+            return new Color(systemColor.R, systemColor.G, systemColor.B, systemColor.A);
+        }
+
+    }
     public class ArrowNote
     {
         public Vector2 Loc { get; set; }
@@ -24,143 +138,5 @@ namespace HPGrid
             else
                 return false;
         }
-    }
-
-    class DrawGrid : Container
-    {
-        public List<GridPhase> Phases = null;
-        Texture2D arrow;
-        List<ArrowNote> arrowNotes = new List<ArrowNote>();
-
-        public DrawGrid()
-        {
-            Disposed += OnDisposed; 
-            this.Visible = true;
-            arrow = Module.ModuleInstance.ContentsManager.GetTexture("arrow.png");
-            GameService.Input.Mouse.LeftMouseButtonPressed += OnMousePressed;
-        }
-        private void OnDisposed(object sender, EventArgs e)
-        {
-            GameService.Input.Mouse.LeftMouseButtonPressed -= OnMousePressed;
-        }
-        private void OnMousePressed(object o, MouseEventArgs e)
-        {
-            foreach (ArrowNote _note in arrowNotes)
-            {
-                if (_note.InRadius(new Vector2(Input.Mouse.Position.X, Input.Mouse.Position.Y), 6))
-                {
-                    ScreenNotification.ShowNotification(_note.Note);
-                }
-            }
-        }
-
-
-        public void SetSize()
-        {
-            int w = 0;
-            int h = 0;
-            int x = 0;
-            int y = 0;
-
-            float UIScale = GameService.Graphics.UIScaleMultiplier;
-            //float ratio_w = 0;
-            //float ratio_h = 0;
-            float ratio_x = 0;
-            //float ratio_y = 0;
-
-            switch (GameService.Gw2Mumble.UI.UISize)
-            {
-                case Gw2Sharp.Mumble.Models.UiSize.Larger:
-                    //larger = 1.103
-                    //741,106 - 1051,122 @ 1920x1080
-                    //ratio_w = ((1051f - 741f) / 1920f);
-                    //ratio_h = ((122f - 106f) / 1080f);
-                    //ratio_y = (107f / 1080f);
-                    w = (int)((1053 - 742) / UIScale);
-                    h = (int)((124 - 106) / UIScale);
-                    y = (int)(106 / UIScale);
-                    ratio_x = (742f / 1920f);
-                    break;
-                case Gw2Sharp.Mumble.Models.UiSize.Large:
-                    //large = 1
-                    //762,96 - 1043,111 @ 1920x1080
-                    //ratio_w = ((1043f - 762f) / 1920f);
-                    //ratio_h = ((111f - 96f) / 1080f);
-                    //ratio_y = (97f / 1080f);
-                    w = (int)((1043 - 763) / UIScale);
-                    h = (int)((112 - 97) / UIScale);
-                    y = (int)(97 / UIScale);
-                    ratio_x = (763f / 1920f);
-                    break;
-                case Gw2Sharp.Mumble.Models.UiSize.Normal:
-                    //Normal = .897
-                    //782,86 - 1034,100 @ 1920x1080
-                    //ratio_w = ((1034f - 782f) / 1920f);
-                    //ratio_h = ((100f - 86f) / 1080f);
-                    //ratio_y = (87f / 1080f);
-                    w = (int)((1036 - 783) / UIScale);
-                    h = (int)((102 - 87) / UIScale);
-                    y = (int)(87 / UIScale);
-                    ratio_x = (783f / 1920f);
-                    break;
-                case Gw2Sharp.Mumble.Models.UiSize.Small:
-                    //Small = .81
-                    //799,78 - 1027, 90 @ 1920x1080
-                    //ratio_w = ((1027f - 799f) / 1920f);
-                    //ratio_h = ((90f - 78f) / 1080f);
-                    //ratio_y = (79f / 1080f);
-                    w = (int)((1028 - 800) / UIScale);
-                    h = (int)((91 - 78) / UIScale);
-                    y = (int)(78 / UIScale);
-                    ratio_x = (800f / 1920f);
-                    break;
-            }
-            //w = (int)((ratio_w * GameService.Graphics.WindowWidth / UIScale));
-            //h = (int)((ratio_h * GameService.Graphics.WindowHeight / UIScale));
-            x = (int)((ratio_x * GameService.Graphics.WindowWidth / UIScale));
-            //y = (int)((ratio_y * GameService.Graphics.WindowHeight / UIScale));
-
-            this.Size = new Point(w + 15, h + 15);
-            this.Location = new Point(x, y);
-        }
-        public override void PaintAfterChildren(SpriteBatch spriteBatch, Rectangle bounds)
-        {
-            //spriteBatch.DrawOnCtrl(this, ContentService.Textures.Pixel, new Rectangle(0, 0, Size.X-15, Size.Y-15), Color.White);
-
-            if (Phases != null)
-            {
-                arrowNotes.Clear();
-                foreach (GridPhase phase in Phases)
-                {
-                    Color color = FindColor(phase.Color);
-                    float pct = (float)phase.Percent / 100f * ((float)this.Size.X-15);
-                    spriteBatch.DrawOnCtrl(this,
-                        ContentService.Textures.Pixel,
-                        new Rectangle((int)pct, 0, 1, Size.Y - 15),
-                        null,
-                        color
-                        );
-                    spriteBatch.DrawOnCtrl(this,
-                        arrow,
-                        new Rectangle((int)pct-5, Size.Y - 15, 11, 11),
-                        null,
-                        Color.White
-                        );
-                    arrowNotes.Add(
-                        new ArrowNote()
-                        {
-                            Loc = new Vector2(this.Location.X + (int)pct, this.Location.Y + Size.Y - 8),  
-                            Note = phase.Percent + "%: " + phase.Description
-                        });
-                }
-            }
-        }
-        private Color FindColor(string colorname)
-        {
-            if (colorname == null) colorname = "Black";
-            System.Drawing.Color systemColor = System.Drawing.Color.FromName(colorname);
-            return new Color(systemColor.R, systemColor.G, systemColor.B, systemColor.A);
-        }
-
     }
 }

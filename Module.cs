@@ -29,6 +29,7 @@ namespace HPGrid
         internal Gw2ApiManager Gw2ApiManager => this.ModuleParameters.Gw2ApiManager;
         #endregion
 
+        private SettingEntry<bool> _settingHPGridShowDesc; 
         private List<Grid> _hpgrid_items;
         private DirectoryReader _directoryReader;
         private JsonSerializerOptions _jsonOptions;
@@ -75,13 +76,16 @@ namespace HPGrid
 
         protected override void DefineSettings(SettingCollection settings)
         {
+            _settingHPGridShowDesc = settings.DefineSetting("HPGridShowDesc", true, "Show Description", "");
+            _settingHPGridShowDesc.SettingChanged += UpdateShowDesc;
         }
-         
+
         protected override void Initialize()
         {
             _hpgrid_items = new List<Grid>();
             _gridImg = new DrawGrid();
             _gridImg.Parent = GameService.Graphics.SpriteScreen;
+            _gridImg.ShowDesc = _settingHPGridShowDesc.Value;
         }
 
         protected override async Task LoadAsync()
@@ -110,21 +114,28 @@ namespace HPGrid
         {
             base.OnModuleLoaded(e);
         }
+        private void UpdateShowDesc(object sender = null, ValueChangedEventArgs<bool> e = null)
+        {
+            _gridImg.ShowDesc = _settingHPGridShowDesc.Value;
+        }
 
         protected override void Update(GameTime gameTime)
         {
             _gridImg.Visible = false;
-            foreach (Grid _grid in _hpgrid_items)
+            if (GameService.GameIntegration.IsInGame)
             {
-                if (_grid.Map == GameService.Gw2Mumble.CurrentMap.Id)
+                foreach (Grid _grid in _hpgrid_items)
                 {
-                    foreach (GridFight _fight in _grid.Fights)
+                    if (_grid.Map == GameService.Gw2Mumble.CurrentMap.Id)
                     {
-                        if (_fight.InRadius(GameService.Gw2Mumble.PlayerCharacter.Position))
+                        foreach (GridFight _fight in _grid.Fights)
                         {
-                            _gridImg.SetSize();
-                            _gridImg.Visible = true;
-                            _gridImg.Phases = _fight.Phase;
+                            if (_fight.InRadius(GameService.Gw2Mumble.PlayerCharacter.Position))
+                            {
+                                _gridImg.SetSize();
+                                _gridImg.Visible = true;
+                                _gridImg.Phases = _fight.Phase;
+                            }
                         }
                     }
                 }
