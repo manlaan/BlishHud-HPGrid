@@ -75,13 +75,13 @@ namespace HPGrid
 
         protected override void DefineSettings(SettingCollection settings)
         {
-            _gridImg = new DrawGrid();
-            _gridImg.Parent = GameService.Graphics.SpriteScreen;
         }
          
         protected override void Initialize()
         {
             _hpgrid_items = new List<Grid>();
+            _gridImg = new DrawGrid();
+            _gridImg.Parent = GameService.Graphics.SpriteScreen;
         }
 
         protected override async Task LoadAsync()

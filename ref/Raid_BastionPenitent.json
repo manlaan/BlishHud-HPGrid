@@ -9,7 +9,7 @@
             "phase": [
                 {
                     "percent": 100,
-                    "cowlor": "Black",
+                    "color": "Black",
                     "description": "Green Pattern 1"
                 },
                 {
@@ -125,12 +125,12 @@
             "phase": [
                 {
                     "percent": 100,
-                    "color": "Black",
+                    "color": "Green",
                     "description": "Chain Teleport, Greed and Pride"
                 },
                 {
                     "percent": 75,
-                    "color": "Black",
+                    "color": "Green",
                     "description": "Thief Teleport, Tears Start"
                 },
                 {
@@ -140,7 +140,7 @@
                 },
                 {
                     "percent": 50,
-                    "color": "Black",
+                    "color": "Green",
                     "description": "Gambler Teleport"
                 },
                 {
@@ -150,12 +150,12 @@
                 },
                 {
                     "percent": 25,
-                    "color": "Black",
+                    "color": "Green",
                     "description": "Drunkard Teleport"
                 },
                 {
                     "percent": 10,
-                    "color": "Black",
+                    "color": "Green",
                     "description": "All Teleport"
                 }
             ]

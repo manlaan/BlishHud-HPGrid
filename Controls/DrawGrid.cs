@@ -157,6 +157,7 @@ namespace HPGrid
         }
         private Color FindColor(string colorname)
         {
+            if (colorname == null) colorname = "Black";
             System.Drawing.Color systemColor = System.Drawing.Color.FromName(colorname);
             return new Color(systemColor.R, systemColor.G, systemColor.B, systemColor.A);
         }
