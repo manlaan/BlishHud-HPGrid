@@ -1,11 +1,11 @@
 {
     "name": "HP Grids",
-    "version": "0.9.0",
+    "version": "1.0.0",
     "namespace": "HPGrid",
     "package": "HPGrid.dll",
     "manifest_version": 1,
 
-    "description": "Displays grid over HP bar\n\nOriginal HPGrid file from QuitarHero's Marker Pack https://github.com/QuitarHero/Heros-Marker-Pack",
+    "description": "Displays grid over HP bar\n\nOriginal HPGrid.xml file from QuitarHero's Marker Pack https://github.com/QuitarHero/Heros-Marker-Pack",
     "dependencies": {
         "bh.blishhud": ">=0.7.0"
     },
