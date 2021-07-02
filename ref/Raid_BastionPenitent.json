@@ -9,7 +9,7 @@
             "phase": [
                 {
                     "percent": 100,
-                    "color": "Black",
+                    "cowlor": "Black",
                     "description": "Green Pattern 1"
                 },
                 {
@@ -99,7 +99,7 @@
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Rigom, Large Spears"
+                    "description": "Rigom"
                 },
                 {
                     "percent": 30,
