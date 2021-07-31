@@ -5,9 +5,9 @@ using Microsoft.Xna.Framework.Graphics;
 using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Input;
-using HPGrid.Models;
+using Manlaan.HPGrid.Models;
 
-namespace HPGrid
+namespace Manlaan.HPGrid.Controls
 {
     class DrawGrid : Container
     {

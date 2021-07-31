@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{64566B72-F420-4F00-BE03-C416D60D3F61}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>HPGrid</RootNamespace>
+    <RootNamespace>Manlaan.HPGrid</RootNamespace>
     <AssemblyName>HPGrid</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

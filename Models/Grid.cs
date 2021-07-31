@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace HPGrid.Models
+namespace Manlaan.HPGrid.Models
 {
     public class Grid
     {

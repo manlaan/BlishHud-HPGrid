@@ -1,7 +1,7 @@
 {
     "name": "HP Grids",
-    "version": "1.0.2",
-    "namespace": "HPGrid",
+    "version": "1.0.3",
+    "namespace": "Manlaan.HPGrid",
     "package": "HPGrid.dll",
     "manifest_version": 1,
 

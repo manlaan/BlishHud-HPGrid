@@ -10,10 +10,11 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Text.Json;
 using System.IO;
-using HPGrid.Models;
+using Manlaan.HPGrid.Models;
+using Manlaan.HPGrid.Controls;
 
 
-namespace HPGrid
+namespace Manlaan.HPGrid
 {
     [Export(typeof(Blish_HUD.Modules.Module))]
     public class Module : Blish_HUD.Modules.Module
