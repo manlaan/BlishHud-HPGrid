@@ -13,7 +13,6 @@ using System.IO;
 using Manlaan.HPGrid.Models;
 using Manlaan.HPGrid.Controls;
 
-
 namespace Manlaan.HPGrid
 {
     [Export(typeof(Blish_HUD.Modules.Module))]
@@ -123,7 +122,8 @@ namespace Manlaan.HPGrid
         protected override void Update(GameTime gameTime)
         {
             _gridImg.Visible = false;
-            if (GameService.GameIntegration.IsInGame)
+            
+            if (GameService.GameIntegration.Gw2Instance.IsInGame && !GameService.Gw2Mumble.UI.IsMapOpen)
             {
                 foreach (Grid _grid in _hpgrid_items)
                 {
