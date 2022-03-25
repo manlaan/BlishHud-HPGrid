@@ -10,12 +10,12 @@
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Platform"
+                    "description": "Move Platforms"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Platform"
+                    "description": "Move Platforms"
                 }
             ]
         },
@@ -25,19 +25,14 @@
             "radius": 150,
             "phase": [
                 {
-                    "percent": 100,
-                    "color": "Black",
-                    "description": "Phase 1"
-                },
-                {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Phase 2"
+                    "description": "Phase - Destroyer begins"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Phase 3"
+                    "description": "Phase - Wyverns begin"
                 }
             ]
         }

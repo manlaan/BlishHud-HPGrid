@@ -10,12 +10,12 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Icebrood Construct"
+                    "description": "Phase - Icebrood Construct"
                 },
                 {
                     "percent": 70,
                     "color": "Black",
-                    "description": "Arm Lost"
+                    "description": "Phase - Arm Lost"
                 }
             ]
         }

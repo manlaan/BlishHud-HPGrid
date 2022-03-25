@@ -10,7 +10,7 @@
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Breakbar"
                 }
             ]
         },
@@ -22,7 +22,7 @@
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Breakbar"
                 }
             ]
         },
@@ -34,7 +34,7 @@
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Breakbar"
                 }
             ]
         },*/
@@ -46,7 +46,7 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Dead"
+                    "description": "Dies"
                 }
             ]
         },
@@ -58,7 +58,7 @@
                 {
                     "percent": 100,
                     "color": "Black",
-                    "description": "Lyssa  Phase (Clones)"
+                    "description": "Lyssa Phase (Clones)"
                 },
                 {
                     "percent": 85,

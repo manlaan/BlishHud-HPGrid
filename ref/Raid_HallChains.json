@@ -10,17 +10,17 @@
                 {
                     "percent": 90,
                     "color": "Black",
-                    "description": "Walls - 2 Segments"
+                    "description": "Platform Shrinks, Golem in 20 seconds"
                 },
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Walls - 3 Segments"
+                    "description": "Platform Shrinks, Breakbar begins"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Walls - 4 Segments"
+                    "description": "Platform Shrinks"
                 }
             ]
         },
@@ -32,12 +32,12 @@
                 {
                     "percent": 60,
                     "color": "Black",
-                    "description": "Soul Shackle Starts"
+                    "description": "Soul Shackles begin"
                 },
                 {
                     "percent": 10,
                     "color": "Black",
-                    "description": "Orbs"
+                    "description": "Phase - Ritual"
                 }
             ]
         }

@@ -10,12 +10,12 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Doppelganger"
+                    "description": "Phase - Doppelganger"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Doppelganger"
+                    "description": "Phase - Doppelganger"
                 }
             ]
         }

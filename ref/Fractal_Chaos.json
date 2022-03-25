@@ -10,17 +10,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Golems Spawn"
+                    "description": "Phase - 3 Golems Spawn"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Golems Spawn"
+                    "description": "Phase - 2 Golems Spawn"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Golems Spawn"
+                    "description": "Phase - 1 Golems Spawn"
                 }
             ]
         },
@@ -32,17 +32,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "JT Spawn"
+                    "description": "JT-Golems Spawn"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Begin Spin/Pull Attacks, JT Spawn"
+                    "description": "Begin Spin/Pull Attacks, JT-Golems Spawn"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "JT Spawn"
+                    "description": "JT-Golems Spawn"
                 }
             ]
         }

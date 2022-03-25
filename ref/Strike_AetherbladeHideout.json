@@ -1,0 +1,53 @@
+{
+    "name": "Aetherblade Hideout",
+    "map": 1432,
+    "fights": [
+        {
+            "name": "Mai and Scarlet",
+            "position": [70.136, 41.234, 45.736],
+            "radius": 25,
+            "phase": [
+                {
+                    "percent": 80,
+                    "color": "Black",
+                    "description": "Scarlet - 8 Phantasms spawn"
+                },
+                {
+                    "percent": 66,
+                    "color": "Blue",
+                    "description": "Mai - 4 Phantasms spawn"
+                },
+                {
+                    "percent": 60,
+                    "color": "Black",
+                    "description": "Scarlet - Mai's Laser"
+                },
+                {
+                    "percent": 55,
+                    "color": "Black",
+                    "description": "Scarlet - Mai's attacks begin"
+                },
+                {
+                    "percent": 40,
+                    "color": "Black",
+                    "description": "Scarlet - 8 Phantasms spawn"
+                },
+                {
+                    "percent": 33,
+                    "color": "Blue",
+                    "description": "Mai - 6 Phantasms spawn"
+                },
+                {
+                    "percent": 20,
+                    "color": "Black",
+                    "description": "Scarlet - Mai's Laser"
+                },
+                {
+                    "percent": 10,
+                    "color": "White",
+                    "description": "Mai - Dies | Scarlet - Phantasms begin spawning"
+                }
+            ]
+        }
+    ]
+}

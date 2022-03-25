@@ -10,12 +10,17 @@
                 {
                     "percent": 85,
                     "color": "Black",
-                    "description": "Wind"
+                    "description": "Whirlwind can begin"
+                },
+                {
+                    "percent": 75,
+                    "color": "Black",
+                    "description": "Chill AoE's begin"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Arm Lost"
+                    "description": "Phase - Arm Lost"
                 }
             ]
         }

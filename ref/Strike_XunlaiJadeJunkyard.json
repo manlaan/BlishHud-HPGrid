@@ -1,0 +1,30 @@
+{
+    "name": "Xunlai Jade Junkyard",
+    "map": 1450,
+    "fights": [
+        {
+            "name": "Ankka 1",
+            "position": [-100.077, 1.897, 91.725],
+            "radius": 60,
+            "phase": [
+                {
+                    "percent": 75,
+                    "color": "Black",
+                    "description": "Phase - Moves to Dump Site 2"
+                }
+            ]
+        },
+        {
+            "name": "Ankka 2",
+            "position": [53.6405, 116.172, 32.8368],
+            "radius": 60,
+            "phase": [
+                {
+                    "percent": 40,
+                    "color": "Black",
+                    "description": "Phase - Moves to Dump Site 1"
+                }
+            ]
+        }
+    ]
+}
