@@ -10,12 +10,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Islands"
+                    "description": "Phase - Islands"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Islands"
+                    "description": "Phase - Islands"
                 }
             ]
         },
@@ -27,12 +27,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Breakbar"
+                    "description": "Phase - Breakbars"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Breakbar"
+                    "description": "Phase - Breakbars"
                 }
             ]
         },
@@ -44,27 +44,27 @@
                 {
                     "percent": 80,
                     "color": "Gray",
-                    "description": "Balls"
+                    "description": "Phase - Solar Blooms"
                 },
                 {
                     "percent": 70,
                     "color": "Black",
-                    "description": "Adds"
+                    "description": "Archdiviner Spawns"
                 },
                 {
                     "percent": 50,
                     "color": "Gray",
-                    "description": "Balls"
+                    "description": "Phase - Solar Blooms"
                 },
                 {
                     "percent": 40,
                     "color": "Black",
-                    "description": "Adds"
+                    "description": "Brazen Gladiator Spawns"
                 },
                 {
                     "percent": 30,
                     "color": "Gray",
-                    "description": "Balls"
+                    "description": "Phase - Solar Blooms"
                 }
             ]
         }

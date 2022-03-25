@@ -10,7 +10,7 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Can begin its movement attack"
                 }
             ]
         },*/
@@ -22,7 +22,7 @@
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Adds Spawn"
+                    "description": "Enemies Spawn"
                 }
             ]
         }

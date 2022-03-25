@@ -10,17 +10,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Swap Champians"
+                    "description": "Phase - Kill Horrik"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Swap Champians"
+                    "description": "Phase - Kill Horrik"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Swap Champians"
+                    "description": "Phase - Kill Horrik"
                 }
             ]
         }

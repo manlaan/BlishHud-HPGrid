@@ -10,17 +10,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Elite Krait Diviners"
+                    "description": "Invulnerable - Kill 1 Elite Krait Diviner"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Elite Krait Diviners"
+                    "description": "Invulnerable - Kill 2 Elite Krait Diviners"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Elite Krait Diviners"
+                    "description": "Invulnerable - Kill 3 Elite Krait Diviners"
                 }
             ]
         }

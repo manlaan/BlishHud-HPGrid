@@ -11,28 +11,18 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Enemies Spawn"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "?"
-                },
-                {
-                    "percent": 33,
-                    "color": "Black",
-                    "description": "?"
+                    "description": "Phase - Invulnerable, Enemies Spawn"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Enemies Spawn"
                 },
-                {
-                    "percent": 15,
-                    "color": "Black",
-                    "description": "?"
-                }
             ]
         },*/
         {
@@ -45,31 +35,16 @@
                     "color": "Black",
                     "description": "Wind Sprites"
                 },
-                /*{
-                    "percent": 75,
-                    "color": "Black",
-                    "description": "?"
-                },*/
                 {
                     "percent": 60,
                     "color": "Black",
                     "description": "Wind Sprites"
                 },
-                /*{
-                    "percent": 50,
-                    "color": "Black",
-                    "description": "?"
-                },*/
                 {
                     "percent": 40,
                     "color": "Black",
                     "description": "Wind Sprites"
                 },
-                /*{
-                    "percent": 25,
-                    "color": "Black",
-                    "description": "?"
-                },*/
                 {
                     "percent": 20,
                     "color": "Black",
@@ -85,17 +60,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Enemies Spawn"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Enemies Spawn"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Enemies Spawn"
                 }
             ]
         },*/
@@ -107,42 +82,42 @@
                 /*{
                     "percent": 90,
                     "color": "Black",
-                    "description": "Teleport"
+                    "description": "Teleports"
                 },*/
                 {
                     "percent": 80,
                     "color": "Gray",
-                    "description": "Teleport and Breakbar"
+                    "description": "Teleports and Breakbar"
                 },
                 /*{
                     "percent": 70,
                     "color": "Black",
-                    "description": "Teleport"
+                    "description": "Teleports"
                 },*/
                 {
                     "percent": 60,
                     "color": "Black",
-                    "description": "Spectral Flames"
+                    "description": "Teleports to Center, Spectral Flames"
                 },
                 /*{
                     "percent": 50,
                     "color": "Black",
-                    "description": "Teleport"
+                    "description": "Teleports"
                 },*/
                 {
                     "percent": 40,
                     "color": "Gray",
-                    "description": "Teleport and Breakbar"
+                    "description": "Teleports and Breakbar"
                 },
                 /*{
                     "percent": 30,
                     "color": "Black",
-                    "description": "Teleport"
+                    "description": "Teleports"
                 },*/
                 {
                     "percent": 20,
                     "color": "Black",
-                    "description": "Spectral Flames"
+                    "description": "Teleports to Center, Spectral Flames"
                 }
             ]
         }

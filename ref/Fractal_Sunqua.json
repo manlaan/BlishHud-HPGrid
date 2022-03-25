@@ -10,12 +10,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Jumpers"
+                    "description": "Phase - Charged Leap"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Jumpers"
+                    "description": "Phase - Charged Leap"
                 }
             ]
         },
@@ -27,12 +27,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Meteors"
+                    "description": "Phase - Meteors"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Meteors"
+                    "description": "Phase - Meteors"
                 }
             ]
         },

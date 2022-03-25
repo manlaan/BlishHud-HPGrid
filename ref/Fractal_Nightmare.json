@@ -20,7 +20,7 @@
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Starts Moving"
+                    "description": "Transforms, Begins Moving"
                 },
                 {
                     "percent": 25,
@@ -37,17 +37,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Toxin and Hallucinations Start"
+                    "description": "Toxin and Hallucinations Begins"
                 },
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Echos of the Unclean"
+                    "description": "Phase - Echos of the Unclean"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Echos of the Unclean"
+                    "description": "Phase - Echos of the Unclean"
                 }
             ]
         },
@@ -59,12 +59,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Balls"
+                    "description": "Phase - Orbs"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Balls"
+                    "description": "Phase - Orbs"
                 },
                 {
                     "percent": 15,

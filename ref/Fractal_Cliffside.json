@@ -10,17 +10,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Use Hammer"
+                    "description": "Phase - Use Hammer"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Use Hammer"
+                    "description": "Phase - Use Hammer"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Use Hammer"
+                    "description": "Phase - Use Hammer"
                 }
             ]
         }

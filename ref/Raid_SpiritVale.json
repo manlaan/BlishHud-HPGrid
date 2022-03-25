@@ -10,12 +10,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Split"
+                    "description": "Phase - Guardians spawn"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Split"
+                    "description": "Phase - Guardians spawn"
                 }
             ]
         },
@@ -27,12 +27,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Charged Souls"
+                    "description": "Phase - Charged Souls spawn"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Charged Souls"
+                    "description": "Phase - Charged Souls spawn"
                 }
             ]
         },

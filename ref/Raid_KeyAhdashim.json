@@ -15,7 +15,7 @@
                 {
                     "percent": 80,
                     "color": "Black",
-                    "description": "Next Platform"
+                    "description": "Phase - Next Platform"
                 }
             ]
         },
@@ -42,7 +42,7 @@
                 {
                     "percent": 60,
                     "color": "Black",
-                    "description": "Next Platform"
+                    "description": "Phase - Next Platform"
                 }
             ]
         },
@@ -54,27 +54,22 @@
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Twister, Corners Start"
+                    "description": "Large Twister spawns"
                 },
                 {
                     "percent": 40,
                     "color": "Black",
-                    "description": "Wisp"
+                    "description": "Wisp spawns"
                 },
                 {
                     "percent": 30,
                     "color": "Black",
-                    "description": "Wisp"
+                    "description": "Wisp spawns"
                 },
                 {
                     "percent": 20,
                     "color": "Black",
-                    "description": "Wisp"
-                },
-                {
-                    "percent": 10,
-                    "color": "Black",
-                    "description": "Wisp"
+                    "description": "Wisps keep spawning"
                 }
             ]
         },
@@ -86,17 +81,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Wall"
+                    "description": "Phase - Sandwall and Hands"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Wall"
+                    "description": "Phase - Sandwall and Hands"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Wall"
+                    "description": "Phase - Sandwall and Hands"
                 }
             ]
         },
@@ -123,7 +118,7 @@
                 {
                     "percent": 80,
                     "color": "Black",
-                    "description": "Drop Fire"
+                    "description": "Phase - Drop Fire"
                 },
                 {
                     "percent": 75,
@@ -143,7 +138,7 @@
                 {
                     "percent": 60,
                     "color": "Black",
-                    "description": "Drop Fire"
+                    "description": "Phase - Drop Fire"
                 },
                 {
                     "percent": 55,

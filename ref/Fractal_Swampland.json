@@ -22,17 +22,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Adds"
+                    "description": "Phase - Enemies Spawn"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Adds"
+                    "description": "Phase - Enemies Spawn"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Wisps"
+                    "description": "Phase - Wisp Clefts"
                 }
             ]
         }

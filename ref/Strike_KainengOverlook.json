@@ -1,0 +1,23 @@
+{
+    "name": "Kaineng Overlook",
+    "map": 1451,
+    "fights": [
+        {
+            "name": "Minister Li",
+            "position": [-587.856, -403.255, 274.56],
+            "radius": 20,
+            "phase": [
+                {
+                    "percent": 66,
+                    "color": "Black",
+                    "description": "Phase - Fight Ritualist, Mindblade, and Enforcer"
+                },
+                {
+                    "percent": 33,
+                    "color": "Black",
+                    "description": "Phase - Fight The Mech Rider and The Sniper"
+                }
+            ]
+        }
+    ]
+}

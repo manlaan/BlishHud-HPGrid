@@ -8,24 +8,19 @@
             "radius": 50,
             "phase": [
                 {
-                    "percent": 100,
-                    "color": "Black",
-                    "description": "Green Pattern 1"
-                },
-                {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Green Pattern 2"
+                    "description": "Rotation Reset, Greens change"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Green Pattern 3"
+                    "description": "Rotation Reset, Greens change"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Green Pattern 4"
+                    "description": "Rotation Reset, Greens change, Gravity Wave can begin"
                 }
             ]
         },
@@ -35,24 +30,19 @@
             "radius": 50,
             "phase": [
                 {
-                    "percent": 100,
-                    "color": "Black",
-                    "description": "Pattern 1"
-                },
-                {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Pattern 2"
+                    "description": "Spike Pattern Changes"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Pattern 3"
+                    "description": "Spike Pattern Changes"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Pattern 4"
+                    "description": "Spike Pattern Changes"
                 }
             ]
         },
@@ -79,7 +69,7 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Rigom, Lock Key Starts"
+                    "description": "Phase - Rigom and Guldhem, Inevitable Betrayal begins"
                 },
                 {
                     "percent": 60,
@@ -99,7 +89,7 @@
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Rigom"
+                    "description": "Phase - Rigom and Guldhem"
                 },
                 {
                     "percent": 30,
@@ -124,19 +114,19 @@
             "radius": 40,
             "phase": [
                 {
-                    "percent": 100,
-                    "color": "Green",
-                    "description": "Chain Teleport, Greed and Pride"
+                    "percent": 90,
+                    "color": "Black",
+                    "description": "Mind Crush begins"
                 },
                 {
                     "percent": 75,
                     "color": "Green",
-                    "description": "Thief Teleport, Tears Start"
+                    "description": "Thief Teleport, Tears begins"
                 },
                 {
                     "percent": 60,
                     "color": "Black",
-                    "description": "Oil Starts"
+                    "description": "Oil begins"
                 },
                 {
                     "percent": 50,
@@ -146,7 +136,7 @@
                 {
                     "percent": 40,
                     "color": "Black",
-                    "description": "Greed and Pride"
+                    "description": "Greed and Pride begin spawning"
                 },
                 {
                     "percent": 25,

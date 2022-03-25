@@ -10,17 +10,17 @@
                 {
                     "percent": 75,
                     "color": "Black",
-                    "description": "Split"
+                    "description": "Splits"
                 },
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Split"
+                    "description": "Splits"
                 },
                 {
                     "percent": 25,
                     "color": "Black",
-                    "description": "Split"
+                    "description": "Splits"
                 }
             ]
         },
@@ -32,12 +32,12 @@
                 {
                     "percent": 66,
                     "color": "Black",
-                    "description": "Orb Collection"
+                    "description": "Phase - Orb Collection"
                 },
                 {
                     "percent": 33,
                     "color": "Black",
-                    "description": "Orb Collection"
+                    "description": "Phase - Orb Collection"
                 }
             ]
         },
@@ -54,22 +54,22 @@
                 /*{
                     "percent": 75,
                     "color": "Black",
-                    "description": "?"
+                    "description": "Laser stops, Ambient Magic"
                 },*/
                 {
                     "percent": 50,
                     "color": "Black",
-                    "description": "Platforms"
+                    "description": "Phase - Platforms"
                 },
                 {
                     "percent": 40,
                     "color": "Black",
-                    "description": "Games (Rifts)"
+                    "description": "Teleport - Games (Rifts)"
                 },
                 {
                     "percent": 20,
                     "color": "Black",
-                    "description": "Games (Buttons)"
+                    "description": "Teleport - Games (Buttons)"
                 }
             ]
         }
